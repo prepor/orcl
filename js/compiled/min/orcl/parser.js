@@ -353,9 +353,7 @@ var res = blancas.kern.core.parse.call(null,orcl.parser.program,s,null,new cljs.
 if(cljs.core.truth_(new cljs.core.Keyword(null,"ok","ok",967785236).cljs$core$IFn$_invoke$arity$1(res))){
 return new cljs.core.Keyword(null,"value","value",305978217).cljs$core$IFn$_invoke$arity$1(res);
 } else {
-cljs.pprint.pprint.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [s,new cljs.core.Keyword(null,"error","error",-978969032).cljs$core$IFn$_invoke$arity$1(res)], null));
-
-throw cljs.core.ex_info.call(null,"Parsing error",new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword(null,"error","error",-978969032).cljs$core$IFn$_invoke$arity$1(res)], null));
+throw cljs.core.ex_info.call(null,"Parsing error",new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("orcl.parser","error","orcl.parser/error",2097119093),new cljs.core.Keyword(null,"pos","pos",-864607220).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"error","error",-978969032).cljs$core$IFn$_invoke$arity$1(res))], null));
 }
 });
 

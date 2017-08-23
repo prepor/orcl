@@ -25,10 +25,10 @@ return null;
 re_frisk.devtool.json_on_change = (function re_frisk$devtool$json_on_change(event){
 var rdr = (new FileReader());
 rdr.onload = ((function (rdr){
-return (function (p1__36513_SHARP_){
+return (function (p1__35995_SHARP_){
 cljs.core.reset_BANG_.call(null,re_frisk.data.re_frame_events,cljs.core.PersistentVector.EMPTY);
 
-return re_frame.core.dispatch.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("re-frisk","update-db","re-frisk/update-db",-658524246),cognitect.transit.read.call(null,cognitect.transit.reader.call(null,new cljs.core.Keyword(null,"json","json",1279968570)),p1__36513_SHARP_.target.result)], null));
+return re_frame.core.dispatch.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("re-frisk","update-db","re-frisk/update-db",-658524246),cognitect.transit.read.call(null,cognitect.transit.reader.call(null,new cljs.core.Keyword(null,"json","json",1279968570)),p1__35995_SHARP_.target.result)], null));
 });})(rdr))
 ;
 

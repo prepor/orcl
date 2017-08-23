@@ -11,14 +11,14 @@ re_com.alert.alert_box_args_desc = new cljs.core.PersistentVector(null, 10, 5, c
  */
 re_com.alert.alert_box = (function re_com$alert$alert_box(var_args){
 var args__28371__auto__ = [];
-var len__28364__auto___40101 = arguments.length;
-var i__28365__auto___40102 = (0);
+var len__28364__auto___39583 = arguments.length;
+var i__28365__auto___39584 = (0);
 while(true){
-if((i__28365__auto___40102 < len__28364__auto___40101)){
-args__28371__auto__.push((arguments[i__28365__auto___40102]));
+if((i__28365__auto___39584 < len__28364__auto___39583)){
+args__28371__auto__.push((arguments[i__28365__auto___39584]));
 
-var G__40103 = (i__28365__auto___40102 + (1));
-i__28365__auto___40102 = G__40103;
+var G__39585 = (i__28365__auto___39584 + (1));
+i__28365__auto___39584 = G__39585;
 continue;
 } else {
 }
@@ -29,31 +29,31 @@ var argseq__28372__auto__ = ((((0) < args__28371__auto__.length))?(new cljs.core
 return re_com.alert.alert_box.cljs$core$IFn$_invoke$arity$variadic(argseq__28372__auto__);
 });
 
-re_com.alert.alert_box.cljs$core$IFn$_invoke$arity$variadic = (function (p__40098){
-var map__40099 = p__40098;
-var map__40099__$1 = ((((!((map__40099 == null)))?((((map__40099.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__40099.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__40099):map__40099);
-var args = map__40099__$1;
-var closeable_QMARK_ = cljs.core.get.call(null,map__40099__$1,new cljs.core.Keyword(null,"closeable?","closeable?",1490064409));
-var body = cljs.core.get.call(null,map__40099__$1,new cljs.core.Keyword(null,"body","body",-2049205669));
-var attr = cljs.core.get.call(null,map__40099__$1,new cljs.core.Keyword(null,"attr","attr",-604132353));
-var heading = cljs.core.get.call(null,map__40099__$1,new cljs.core.Keyword(null,"heading","heading",-1312171873));
-var on_close = cljs.core.get.call(null,map__40099__$1,new cljs.core.Keyword(null,"on-close","on-close",-761178394));
-var alert_type = cljs.core.get.call(null,map__40099__$1,new cljs.core.Keyword(null,"alert-type","alert-type",405751817),new cljs.core.Keyword(null,"info","info",-317069002));
-var style = cljs.core.get.call(null,map__40099__$1,new cljs.core.Keyword(null,"style","style",-496642736));
-var id = cljs.core.get.call(null,map__40099__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
-var class$ = cljs.core.get.call(null,map__40099__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
-var padding = cljs.core.get.call(null,map__40099__$1,new cljs.core.Keyword(null,"padding","padding",1660304693));
+re_com.alert.alert_box.cljs$core$IFn$_invoke$arity$variadic = (function (p__39580){
+var map__39581 = p__39580;
+var map__39581__$1 = ((((!((map__39581 == null)))?((((map__39581.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39581.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__39581):map__39581);
+var args = map__39581__$1;
+var closeable_QMARK_ = cljs.core.get.call(null,map__39581__$1,new cljs.core.Keyword(null,"closeable?","closeable?",1490064409));
+var body = cljs.core.get.call(null,map__39581__$1,new cljs.core.Keyword(null,"body","body",-2049205669));
+var attr = cljs.core.get.call(null,map__39581__$1,new cljs.core.Keyword(null,"attr","attr",-604132353));
+var heading = cljs.core.get.call(null,map__39581__$1,new cljs.core.Keyword(null,"heading","heading",-1312171873));
+var on_close = cljs.core.get.call(null,map__39581__$1,new cljs.core.Keyword(null,"on-close","on-close",-761178394));
+var alert_type = cljs.core.get.call(null,map__39581__$1,new cljs.core.Keyword(null,"alert-type","alert-type",405751817),new cljs.core.Keyword(null,"info","info",-317069002));
+var style = cljs.core.get.call(null,map__39581__$1,new cljs.core.Keyword(null,"style","style",-496642736));
+var id = cljs.core.get.call(null,map__39581__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
+var class$ = cljs.core.get.call(null,map__39581__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
+var padding = cljs.core.get.call(null,map__39581__$1,new cljs.core.Keyword(null,"padding","padding",1660304693));
 if(cljs.core.truth_(((!(goog.DEBUG))?true:re_com.validate.validate_args.call(null,re_com.validate.extract_arg_data.call(null,re_com.alert.alert_box_args_desc),args,"alert-box")))){
 } else {
 throw (new Error("Assert failed: (validate-args-macro alert-box-args-desc args \"alert-box\")"));
 }
 
-var close_button = new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.buttons.button,new cljs.core.Keyword(null,"label","label",1718410804),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"i","i",-1386841315),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),"zmdi created zmdi-hc-fw-rc zmdi-close",new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"20px"], null)], null)], null),new cljs.core.Keyword(null,"on-click","on-click",1632826543),((function (map__40099,map__40099__$1,args,closeable_QMARK_,body,attr,heading,on_close,alert_type,style,id,class$,padding){
+var close_button = new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.buttons.button,new cljs.core.Keyword(null,"label","label",1718410804),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"i","i",-1386841315),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),"zmdi created zmdi-hc-fw-rc zmdi-close",new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"20px"], null)], null)], null),new cljs.core.Keyword(null,"on-click","on-click",1632826543),((function (map__39581,map__39581__$1,args,closeable_QMARK_,body,attr,heading,on_close,alert_type,style,id,class$,padding){
 return (function (event){
 on_close.call(null,id);
 
 return null;
-});})(map__40099,map__40099__$1,args,closeable_QMARK_,body,attr,heading,on_close,alert_type,style,id,class$,padding))
+});})(map__39581,map__39581__$1,args,closeable_QMARK_,body,attr,heading,on_close,alert_type,style,id,class$,padding))
 ,new cljs.core.Keyword(null,"class","class",-2030961996),"close"], null);
 var alert_class = alert_type.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"none","none",1333468478),"",new cljs.core.Keyword(null,"info","info",-317069002),"alert-success",new cljs.core.Keyword(null,"warning","warning",-1685650671),"alert-warning",new cljs.core.Keyword(null,"danger","danger",-624338030),"alert-danger"], null));
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),cljs.core.merge.call(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),["rc-alert alert fade in ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(alert_class)," ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(class$)].join(''),new cljs.core.Keyword(null,"style","style",-496642736),cljs.core.merge.call(null,re_com.box.flex_child_style.call(null,"none"),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"padding","padding",1660304693),(cljs.core.truth_(padding)?padding:null)], null),style)], null),attr),(cljs.core.truth_(heading)?new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.box.h_box,new cljs.core.Keyword(null,"justify","justify",-722524056),new cljs.core.Keyword(null,"between","between",1131099276),new cljs.core.Keyword(null,"align","align",1964212802),new cljs.core.Keyword(null,"center","center",-748944368),new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"margin-bottom","margin-bottom",388334941),(cljs.core.truth_(body)?"10px":"0px")], null),new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h4","h4",2004862993),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"margin-bottom","margin-bottom",388334941),"0px"], null)], null),heading], null),(cljs.core.truth_((function (){var and__27183__auto__ = closeable_QMARK_;
@@ -78,8 +78,8 @@ return and__27183__auto__;
 
 re_com.alert.alert_box.cljs$lang$maxFixedArity = (0);
 
-re_com.alert.alert_box.cljs$lang$applyTo = (function (seq40097){
-return re_com.alert.alert_box.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq40097));
+re_com.alert.alert_box.cljs$lang$applyTo = (function (seq39579){
+return re_com.alert.alert_box.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq39579));
 });
 
 re_com.alert.alert_list_args_desc = new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"alerts","alerts",-2121664427),new cljs.core.Keyword(null,"required","required",1807647006),true,new cljs.core.Keyword(null,"type","type",1174270348),"vector of maps | atom",new cljs.core.Keyword(null,"validate-fn","validate-fn",1430169944),re_com.validate.vector_of_maps_QMARK_,new cljs.core.Keyword(null,"description","description",-1428560544),"alerts to render (in the order supplied). Can also be a list of maps"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"on-close","on-close",-761178394),new cljs.core.Keyword(null,"required","required",1807647006),true,new cljs.core.Keyword(null,"type","type",1174270348),":id -> nil",new cljs.core.Keyword(null,"validate-fn","validate-fn",1430169944),cljs.core.fn_QMARK_,new cljs.core.Keyword(null,"description","description",-1428560544),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),"called when the user clicks the close 'X' button. Passed the alert's ",new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"code","code",1586293142),":id"], null)], null)], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"max-height","max-height",-612563804),new cljs.core.Keyword(null,"required","required",1807647006),false,new cljs.core.Keyword(null,"type","type",1174270348),"string",new cljs.core.Keyword(null,"validate-fn","validate-fn",1430169944),cljs.core.string_QMARK_,new cljs.core.Keyword(null,"description","description",-1428560544),"CSS style for maximum list height. By default, it grows forever"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"padding","padding",1660304693),new cljs.core.Keyword(null,"required","required",1807647006),false,new cljs.core.Keyword(null,"default","default",-1987822328),"4px",new cljs.core.Keyword(null,"type","type",1174270348),"string",new cljs.core.Keyword(null,"validate-fn","validate-fn",1430169944),cljs.core.string_QMARK_,new cljs.core.Keyword(null,"description","description",-1428560544),"CSS padding within the alert"], null),new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"border-style","border-style",-485574304),new cljs.core.Keyword(null,"required","required",1807647006),false,new cljs.core.Keyword(null,"default","default",-1987822328),"1px solid lightgrey",new cljs.core.Keyword(null,"type","type",1174270348),"string",new cljs.core.Keyword(null,"validate-fn","validate-fn",1430169944),cljs.core.string_QMARK_,new cljs.core.Keyword(null,"description","description",-1428560544),"CSS border style surrounding the list"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"class","class",-2030961996),new cljs.core.Keyword(null,"required","required",1807647006),false,new cljs.core.Keyword(null,"type","type",1174270348),"string",new cljs.core.Keyword(null,"validate-fn","validate-fn",1430169944),cljs.core.string_QMARK_,new cljs.core.Keyword(null,"description","description",-1428560544),"CSS class names, space separated. Applied to outer container"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.Keyword(null,"required","required",1807647006),false,new cljs.core.Keyword(null,"type","type",1174270348),"CSS style map",new cljs.core.Keyword(null,"validate-fn","validate-fn",1430169944),re_com.validate.css_style_QMARK_,new cljs.core.Keyword(null,"description","description",-1428560544),"CSS styles. Applied to outer container"], null),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"attr","attr",-604132353),new cljs.core.Keyword(null,"required","required",1807647006),false,new cljs.core.Keyword(null,"type","type",1174270348),"HTML attr map",new cljs.core.Keyword(null,"validate-fn","validate-fn",1430169944),re_com.validate.html_attr_QMARK_,new cljs.core.Keyword(null,"description","description",-1428560544),new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),"HTML attributes, like ",new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"code","code",1586293142),":on-mouse-move"], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"br","br",934104792)], null),"No ",new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"code","code",1586293142),":class"], null)," or ",new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"code","code",1586293142),":style"], null),"allowed. Applied to outer container"], null)], null)], null);
@@ -98,14 +98,14 @@ re_com.alert.alert_list_args_desc = new cljs.core.PersistentVector(null, 8, 5, c
  */
 re_com.alert.alert_list = (function re_com$alert$alert_list(var_args){
 var args__28371__auto__ = [];
-var len__28364__auto___40116 = arguments.length;
-var i__28365__auto___40117 = (0);
+var len__28364__auto___39598 = arguments.length;
+var i__28365__auto___39599 = (0);
 while(true){
-if((i__28365__auto___40117 < len__28364__auto___40116)){
-args__28371__auto__.push((arguments[i__28365__auto___40117]));
+if((i__28365__auto___39599 < len__28364__auto___39598)){
+args__28371__auto__.push((arguments[i__28365__auto___39599]));
 
-var G__40118 = (i__28365__auto___40117 + (1));
-i__28365__auto___40117 = G__40118;
+var G__39600 = (i__28365__auto___39599 + (1));
+i__28365__auto___39599 = G__39600;
 continue;
 } else {
 }
@@ -116,54 +116,54 @@ var argseq__28372__auto__ = ((((0) < args__28371__auto__.length))?(new cljs.core
 return re_com.alert.alert_list.cljs$core$IFn$_invoke$arity$variadic(argseq__28372__auto__);
 });
 
-re_com.alert.alert_list.cljs$core$IFn$_invoke$arity$variadic = (function (p__40105){
-var map__40106 = p__40105;
-var map__40106__$1 = ((((!((map__40106 == null)))?((((map__40106.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__40106.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__40106):map__40106);
-var args = map__40106__$1;
-var alerts = cljs.core.get.call(null,map__40106__$1,new cljs.core.Keyword(null,"alerts","alerts",-2121664427));
-var on_close = cljs.core.get.call(null,map__40106__$1,new cljs.core.Keyword(null,"on-close","on-close",-761178394));
-var max_height = cljs.core.get.call(null,map__40106__$1,new cljs.core.Keyword(null,"max-height","max-height",-612563804));
-var padding = cljs.core.get.call(null,map__40106__$1,new cljs.core.Keyword(null,"padding","padding",1660304693),"4px");
-var border_style = cljs.core.get.call(null,map__40106__$1,new cljs.core.Keyword(null,"border-style","border-style",-485574304));
-var class$ = cljs.core.get.call(null,map__40106__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
-var style = cljs.core.get.call(null,map__40106__$1,new cljs.core.Keyword(null,"style","style",-496642736));
-var attr = cljs.core.get.call(null,map__40106__$1,new cljs.core.Keyword(null,"attr","attr",-604132353));
+re_com.alert.alert_list.cljs$core$IFn$_invoke$arity$variadic = (function (p__39587){
+var map__39588 = p__39587;
+var map__39588__$1 = ((((!((map__39588 == null)))?((((map__39588.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39588.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__39588):map__39588);
+var args = map__39588__$1;
+var alerts = cljs.core.get.call(null,map__39588__$1,new cljs.core.Keyword(null,"alerts","alerts",-2121664427));
+var on_close = cljs.core.get.call(null,map__39588__$1,new cljs.core.Keyword(null,"on-close","on-close",-761178394));
+var max_height = cljs.core.get.call(null,map__39588__$1,new cljs.core.Keyword(null,"max-height","max-height",-612563804));
+var padding = cljs.core.get.call(null,map__39588__$1,new cljs.core.Keyword(null,"padding","padding",1660304693),"4px");
+var border_style = cljs.core.get.call(null,map__39588__$1,new cljs.core.Keyword(null,"border-style","border-style",-485574304));
+var class$ = cljs.core.get.call(null,map__39588__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
+var style = cljs.core.get.call(null,map__39588__$1,new cljs.core.Keyword(null,"style","style",-496642736));
+var attr = cljs.core.get.call(null,map__39588__$1,new cljs.core.Keyword(null,"attr","attr",-604132353));
 if(cljs.core.truth_(((!(goog.DEBUG))?true:re_com.validate.validate_args.call(null,re_com.validate.extract_arg_data.call(null,re_com.alert.alert_list_args_desc),args,"alert-list")))){
 } else {
 throw (new Error("Assert failed: (validate-args-macro alert-list-args-desc args \"alert-list\")"));
 }
 
 var alerts__$1 = re_com.util.deref_or_value.call(null,alerts);
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.box.box,new cljs.core.Keyword(null,"child","child",623967545),new cljs.core.PersistentVector(null, 13, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.box.border,new cljs.core.Keyword(null,"padding","padding",1660304693),padding,new cljs.core.Keyword(null,"border","border",1444987323),border_style,new cljs.core.Keyword(null,"class","class",-2030961996),class$,new cljs.core.Keyword(null,"style","style",-496642736),style,new cljs.core.Keyword(null,"attr","attr",-604132353),attr,new cljs.core.Keyword(null,"child","child",623967545),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.box.scroller,new cljs.core.Keyword(null,"v-scroll","v-scroll",-1842185668),new cljs.core.Keyword(null,"auto","auto",-566279492),new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"max-height","max-height",-612563804),max_height], null),new cljs.core.Keyword(null,"child","child",623967545),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.box.v_box,new cljs.core.Keyword(null,"size","size",1098693007),"auto",new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var iter__28003__auto__ = ((function (alerts__$1,map__40106,map__40106__$1,args,alerts,on_close,max_height,padding,border_style,class$,style,attr){
-return (function re_com$alert$iter__40108(s__40109){
-return (new cljs.core.LazySeq(null,((function (alerts__$1,map__40106,map__40106__$1,args,alerts,on_close,max_height,padding,border_style,class$,style,attr){
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.box.box,new cljs.core.Keyword(null,"child","child",623967545),new cljs.core.PersistentVector(null, 13, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.box.border,new cljs.core.Keyword(null,"padding","padding",1660304693),padding,new cljs.core.Keyword(null,"border","border",1444987323),border_style,new cljs.core.Keyword(null,"class","class",-2030961996),class$,new cljs.core.Keyword(null,"style","style",-496642736),style,new cljs.core.Keyword(null,"attr","attr",-604132353),attr,new cljs.core.Keyword(null,"child","child",623967545),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.box.scroller,new cljs.core.Keyword(null,"v-scroll","v-scroll",-1842185668),new cljs.core.Keyword(null,"auto","auto",-566279492),new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"max-height","max-height",-612563804),max_height], null),new cljs.core.Keyword(null,"child","child",623967545),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.box.v_box,new cljs.core.Keyword(null,"size","size",1098693007),"auto",new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var iter__28003__auto__ = ((function (alerts__$1,map__39588,map__39588__$1,args,alerts,on_close,max_height,padding,border_style,class$,style,attr){
+return (function re_com$alert$iter__39590(s__39591){
+return (new cljs.core.LazySeq(null,((function (alerts__$1,map__39588,map__39588__$1,args,alerts,on_close,max_height,padding,border_style,class$,style,attr){
 return (function (){
-var s__40109__$1 = s__40109;
+var s__39591__$1 = s__39591;
 while(true){
-var temp__4657__auto__ = cljs.core.seq.call(null,s__40109__$1);
+var temp__4657__auto__ = cljs.core.seq.call(null,s__39591__$1);
 if(temp__4657__auto__){
-var s__40109__$2 = temp__4657__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,s__40109__$2)){
-var c__28001__auto__ = cljs.core.chunk_first.call(null,s__40109__$2);
+var s__39591__$2 = temp__4657__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,s__39591__$2)){
+var c__28001__auto__ = cljs.core.chunk_first.call(null,s__39591__$2);
 var size__28002__auto__ = cljs.core.count.call(null,c__28001__auto__);
-var b__40111 = cljs.core.chunk_buffer.call(null,size__28002__auto__);
-if((function (){var i__40110 = (0);
+var b__39593 = cljs.core.chunk_buffer.call(null,size__28002__auto__);
+if((function (){var i__39592 = (0);
 while(true){
-if((i__40110 < size__28002__auto__)){
-var alert = cljs.core._nth.call(null,c__28001__auto__,i__40110);
-cljs.core.chunk_append.call(null,b__40111,(function (){var map__40112 = alert;
-var map__40112__$1 = ((((!((map__40112 == null)))?((((map__40112.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__40112.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__40112):map__40112);
-var id = cljs.core.get.call(null,map__40112__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
-var alert_type = cljs.core.get.call(null,map__40112__$1,new cljs.core.Keyword(null,"alert-type","alert-type",405751817));
-var heading = cljs.core.get.call(null,map__40112__$1,new cljs.core.Keyword(null,"heading","heading",-1312171873));
-var body = cljs.core.get.call(null,map__40112__$1,new cljs.core.Keyword(null,"body","body",-2049205669));
-var padding__$1 = cljs.core.get.call(null,map__40112__$1,new cljs.core.Keyword(null,"padding","padding",1660304693));
-var closeable_QMARK_ = cljs.core.get.call(null,map__40112__$1,new cljs.core.Keyword(null,"closeable?","closeable?",1490064409));
+if((i__39592 < size__28002__auto__)){
+var alert = cljs.core._nth.call(null,c__28001__auto__,i__39592);
+cljs.core.chunk_append.call(null,b__39593,(function (){var map__39594 = alert;
+var map__39594__$1 = ((((!((map__39594 == null)))?((((map__39594.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39594.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__39594):map__39594);
+var id = cljs.core.get.call(null,map__39594__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
+var alert_type = cljs.core.get.call(null,map__39594__$1,new cljs.core.Keyword(null,"alert-type","alert-type",405751817));
+var heading = cljs.core.get.call(null,map__39594__$1,new cljs.core.Keyword(null,"heading","heading",-1312171873));
+var body = cljs.core.get.call(null,map__39594__$1,new cljs.core.Keyword(null,"body","body",-2049205669));
+var padding__$1 = cljs.core.get.call(null,map__39594__$1,new cljs.core.Keyword(null,"padding","padding",1660304693));
+var closeable_QMARK_ = cljs.core.get.call(null,map__39594__$1,new cljs.core.Keyword(null,"closeable?","closeable?",1490064409));
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 15, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.alert.alert_box,new cljs.core.Keyword(null,"id","id",-1388402092),id,new cljs.core.Keyword(null,"alert-type","alert-type",405751817),alert_type,new cljs.core.Keyword(null,"heading","heading",-1312171873),heading,new cljs.core.Keyword(null,"body","body",-2049205669),body,new cljs.core.Keyword(null,"padding","padding",1660304693),padding__$1,new cljs.core.Keyword(null,"closeable?","closeable?",1490064409),closeable_QMARK_,new cljs.core.Keyword(null,"on-close","on-close",-761178394),on_close], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null));
 })());
 
-var G__40119 = (i__40110 + (1));
-i__40110 = G__40119;
+var G__39601 = (i__39592 + (1));
+i__39592 = G__39601;
 continue;
 } else {
 return true;
@@ -171,31 +171,31 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__40111),re_com$alert$iter__40108.call(null,cljs.core.chunk_rest.call(null,s__40109__$2)));
+return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__39593),re_com$alert$iter__39590.call(null,cljs.core.chunk_rest.call(null,s__39591__$2)));
 } else {
-return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__40111),null);
+return cljs.core.chunk_cons.call(null,cljs.core.chunk.call(null,b__39593),null);
 }
 } else {
-var alert = cljs.core.first.call(null,s__40109__$2);
-return cljs.core.cons.call(null,(function (){var map__40114 = alert;
-var map__40114__$1 = ((((!((map__40114 == null)))?((((map__40114.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__40114.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__40114):map__40114);
-var id = cljs.core.get.call(null,map__40114__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
-var alert_type = cljs.core.get.call(null,map__40114__$1,new cljs.core.Keyword(null,"alert-type","alert-type",405751817));
-var heading = cljs.core.get.call(null,map__40114__$1,new cljs.core.Keyword(null,"heading","heading",-1312171873));
-var body = cljs.core.get.call(null,map__40114__$1,new cljs.core.Keyword(null,"body","body",-2049205669));
-var padding__$1 = cljs.core.get.call(null,map__40114__$1,new cljs.core.Keyword(null,"padding","padding",1660304693));
-var closeable_QMARK_ = cljs.core.get.call(null,map__40114__$1,new cljs.core.Keyword(null,"closeable?","closeable?",1490064409));
+var alert = cljs.core.first.call(null,s__39591__$2);
+return cljs.core.cons.call(null,(function (){var map__39596 = alert;
+var map__39596__$1 = ((((!((map__39596 == null)))?((((map__39596.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39596.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__39596):map__39596);
+var id = cljs.core.get.call(null,map__39596__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
+var alert_type = cljs.core.get.call(null,map__39596__$1,new cljs.core.Keyword(null,"alert-type","alert-type",405751817));
+var heading = cljs.core.get.call(null,map__39596__$1,new cljs.core.Keyword(null,"heading","heading",-1312171873));
+var body = cljs.core.get.call(null,map__39596__$1,new cljs.core.Keyword(null,"body","body",-2049205669));
+var padding__$1 = cljs.core.get.call(null,map__39596__$1,new cljs.core.Keyword(null,"padding","padding",1660304693));
+var closeable_QMARK_ = cljs.core.get.call(null,map__39596__$1,new cljs.core.Keyword(null,"closeable?","closeable?",1490064409));
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 15, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_com.alert.alert_box,new cljs.core.Keyword(null,"id","id",-1388402092),id,new cljs.core.Keyword(null,"alert-type","alert-type",405751817),alert_type,new cljs.core.Keyword(null,"heading","heading",-1312171873),heading,new cljs.core.Keyword(null,"body","body",-2049205669),body,new cljs.core.Keyword(null,"padding","padding",1660304693),padding__$1,new cljs.core.Keyword(null,"closeable?","closeable?",1490064409),closeable_QMARK_,new cljs.core.Keyword(null,"on-close","on-close",-761178394),on_close], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null));
-})(),re_com$alert$iter__40108.call(null,cljs.core.rest.call(null,s__40109__$2)));
+})(),re_com$alert$iter__39590.call(null,cljs.core.rest.call(null,s__39591__$2)));
 }
 } else {
 return null;
 }
 break;
 }
-});})(alerts__$1,map__40106,map__40106__$1,args,alerts,on_close,max_height,padding,border_style,class$,style,attr))
+});})(alerts__$1,map__39588,map__39588__$1,args,alerts,on_close,max_height,padding,border_style,class$,style,attr))
 ,null,null));
-});})(alerts__$1,map__40106,map__40106__$1,args,alerts,on_close,max_height,padding,border_style,class$,style,attr))
+});})(alerts__$1,map__39588,map__39588__$1,args,alerts,on_close,max_height,padding,border_style,class$,style,attr))
 ;
 return iter__28003__auto__.call(null,alerts__$1);
 })()], null)], null)], null)], null)], null);
@@ -203,8 +203,8 @@ return iter__28003__auto__.call(null,alerts__$1);
 
 re_com.alert.alert_list.cljs$lang$maxFixedArity = (0);
 
-re_com.alert.alert_list.cljs$lang$applyTo = (function (seq40104){
-return re_com.alert.alert_list.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq40104));
+re_com.alert.alert_list.cljs$lang$applyTo = (function (seq39586){
+return re_com.alert.alert_list.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq39586));
 });
 
 

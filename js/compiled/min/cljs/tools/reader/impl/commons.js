@@ -18,8 +18,8 @@ cljs.tools.reader.impl.commons.read_past = (function cljs$tools$reader$impl$comm
 var ch = cljs.tools.reader.reader_types.read_char.call(null,rdr);
 while(true){
 if(pred.call(null,ch)){
-var G__31279 = cljs.tools.reader.reader_types.read_char.call(null,rdr);
-ch = G__31279;
+var G__30761 = cljs.tools.reader.reader_types.read_char.call(null,rdr);
+ch = G__30761;
 continue;
 } else {
 return ch;
@@ -82,8 +82,8 @@ return parseFloat(s);
 }
 });
 cljs.tools.reader.impl.commons.matches_QMARK_ = (function cljs$tools$reader$impl$commons$matches_QMARK_(pattern,s){
-var vec__31280 = cljs.core.re_find.call(null,pattern,s);
-var match = cljs.core.nth.call(null,vec__31280,(0),null);
+var vec__30762 = cljs.core.re_find.call(null,pattern,s);
+var match = cljs.core.nth.call(null,vec__30762,(0),null);
 return (match === s);
 });
 cljs.tools.reader.impl.commons.match_number = (function cljs$tools$reader$impl$commons$match_number(s){
@@ -133,14 +133,14 @@ return null;
 });
 cljs.tools.reader.impl.commons.read_comment = (function cljs$tools$reader$impl$commons$read_comment(var_args){
 var args__28371__auto__ = [];
-var len__28364__auto___31285 = arguments.length;
-var i__28365__auto___31286 = (0);
+var len__28364__auto___30767 = arguments.length;
+var i__28365__auto___30768 = (0);
 while(true){
-if((i__28365__auto___31286 < len__28364__auto___31285)){
-args__28371__auto__.push((arguments[i__28365__auto___31286]));
+if((i__28365__auto___30768 < len__28364__auto___30767)){
+args__28371__auto__.push((arguments[i__28365__auto___30768]));
 
-var G__31287 = (i__28365__auto___31286 + (1));
-i__28365__auto___31286 = G__31287;
+var G__30769 = (i__28365__auto___30768 + (1));
+i__28365__auto___30768 = G__30769;
 continue;
 } else {
 }
@@ -157,33 +157,33 @@ return cljs.tools.reader.impl.commons.skip_line.call(null,rdr);
 
 cljs.tools.reader.impl.commons.read_comment.cljs$lang$maxFixedArity = (1);
 
-cljs.tools.reader.impl.commons.read_comment.cljs$lang$applyTo = (function (seq31283){
-var G__31284 = cljs.core.first.call(null,seq31283);
-var seq31283__$1 = cljs.core.next.call(null,seq31283);
-return cljs.tools.reader.impl.commons.read_comment.cljs$core$IFn$_invoke$arity$variadic(G__31284,seq31283__$1);
+cljs.tools.reader.impl.commons.read_comment.cljs$lang$applyTo = (function (seq30765){
+var G__30766 = cljs.core.first.call(null,seq30765);
+var seq30765__$1 = cljs.core.next.call(null,seq30765);
+return cljs.tools.reader.impl.commons.read_comment.cljs$core$IFn$_invoke$arity$variadic(G__30766,seq30765__$1);
 });
 
 cljs.tools.reader.impl.commons.throwing_reader = (function cljs$tools$reader$impl$commons$throwing_reader(msg){
 return (function() { 
-var G__31288__delegate = function (rdr,_){
+var G__30770__delegate = function (rdr,_){
 return cljs.tools.reader.impl.errors.reader_error.call(null,rdr,msg);
 };
-var G__31288 = function (rdr,var_args){
+var G__30770 = function (rdr,var_args){
 var _ = null;
 if (arguments.length > 1) {
-var G__31289__i = 0, G__31289__a = new Array(arguments.length -  1);
-while (G__31289__i < G__31289__a.length) {G__31289__a[G__31289__i] = arguments[G__31289__i + 1]; ++G__31289__i;}
-  _ = new cljs.core.IndexedSeq(G__31289__a,0,null);
+var G__30771__i = 0, G__30771__a = new Array(arguments.length -  1);
+while (G__30771__i < G__30771__a.length) {G__30771__a[G__30771__i] = arguments[G__30771__i + 1]; ++G__30771__i;}
+  _ = new cljs.core.IndexedSeq(G__30771__a,0,null);
 } 
-return G__31288__delegate.call(this,rdr,_);};
-G__31288.cljs$lang$maxFixedArity = 1;
-G__31288.cljs$lang$applyTo = (function (arglist__31290){
-var rdr = cljs.core.first(arglist__31290);
-var _ = cljs.core.rest(arglist__31290);
-return G__31288__delegate(rdr,_);
+return G__30770__delegate.call(this,rdr,_);};
+G__30770.cljs$lang$maxFixedArity = 1;
+G__30770.cljs$lang$applyTo = (function (arglist__30772){
+var rdr = cljs.core.first(arglist__30772);
+var _ = cljs.core.rest(arglist__30772);
+return G__30770__delegate(rdr,_);
 });
-G__31288.cljs$core$IFn$_invoke$arity$variadic = G__31288__delegate;
-return G__31288;
+G__30770.cljs$core$IFn$_invoke$arity$variadic = G__30770__delegate;
+return G__30770;
 })()
 ;
 });

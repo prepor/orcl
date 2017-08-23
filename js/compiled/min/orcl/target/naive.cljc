@@ -111,7 +111,8 @@
   `(let [target# ~(compile-primitive target)]
      (when-not (= ::impl/pending target#)
        (let [args# [~@(map compile-primitive args)]]
-         (when-not (some #(= ::impl/pending %) args#)
+         (if (some #(= ::impl/pending %) args#)
+           [::impl/pending]
            (apply target# args#))))))
 
 (defn call [target args]
@@ -148,9 +149,8 @@
          (cljs.js/eval (cljs.js/empty-state)
                        program
                        {:eval cljs.js/js-eval
-                        :ns 'cljs.user
-                        :def-emits-var true
-                        :load #(prn "----LOAD" %)}
+                        ;:ns 'cljs.user
+                        :def-emits-var true}
                        (fn [res] (:value res)))))
 
 (defn run
@@ -164,11 +164,11 @@
                              :coeffects coeffects
                              :internal  internal
                              :rerun     (atom false)}]
-       (let [res (#?(:clj eval :cljs cljs-eval) program')]
+       (let [res (#?(:clj eval :cljs cljs-eval) program)]
          (if @(:rerun vars/*state*)
            (run program state @internal)
            {:state     state
-            :values    res
+            :values    (filter #(not= ::impl/pending %) res)
             :coeffects @coeffects}))))))
 
 (defn unblock [program state coeffect value]

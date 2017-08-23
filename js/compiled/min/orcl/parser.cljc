@@ -298,6 +298,4 @@
    (let [res (k/parse program s nil {::file-system file-system})]
      (if (:ok res)
        (:value res)
-       (do
-         (pprint/pprint [s (:error res)])
-         (throw (ex-info "Parsing error" {:error (:error res)})))))))
+       (throw (ex-info "Parsing error" {::error (:pos (:error res))}))))))

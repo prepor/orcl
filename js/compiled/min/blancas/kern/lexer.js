@@ -47,12 +47,12 @@ var this__27835__auto____$1 = this;
 return this__27835__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__27836__auto__,null);
 });
 
-blancas.kern.lexer.LanguageDef.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__27837__auto__,k30555,else__27838__auto__){
+blancas.kern.lexer.LanguageDef.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__27837__auto__,k42234,else__27838__auto__){
 var self__ = this;
 var this__27837__auto____$1 = this;
-var G__30559 = k30555;
-var G__30559__$1 = (((G__30559 instanceof cljs.core.Keyword))?G__30559.fqn:null);
-switch (G__30559__$1) {
+var G__42238 = k42234;
+var G__42238__$1 = (((G__42238 instanceof cljs.core.Keyword))?G__42238.fqn:null);
+switch (G__42238__$1) {
 case "type":
 return self__.type;
 
@@ -102,7 +102,7 @@ return self__.leading_sign;
 
 break;
 default:
-return cljs.core.get.call(null,self__.__extmap,k30555,else__27838__auto__);
+return cljs.core.get.call(null,self__.__extmap,k42234,else__27838__auto__);
 
 }
 });
@@ -118,10 +118,10 @@ return cljs.core.pr_sequential_writer.call(null,writer__27850__auto__,cljs.core.
 return cljs.core.pr_sequential_writer.call(null,writer__27850__auto__,pr_pair__27852__auto__,"#blancas.kern.lexer.LanguageDef{",", ","}",opts__27851__auto__,cljs.core.concat.call(null,new cljs.core.PersistentVector(null, 12, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"type","type",1174270348),self__.type],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"comment-start","comment-start",-1104408439),self__.comment_start],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"comment-end","comment-end",-48325961),self__.comment_end],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"comment-line","comment-line",-935339272),self__.comment_line],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"nested-comments","nested-comments",-856738865),self__.nested_comments],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"identifier-start","identifier-start",-2096558846),self__.identifier_start],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"identifier-letter","identifier-letter",78001785),self__.identifier_letter],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"reserved-names","reserved-names",-535805962),self__.reserved_names],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"case-sensitive","case-sensitive",-1005239404),self__.case_sensitive],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"line-continuation","line-continuation",6492671),self__.line_continuation],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"trim-newline","trim-newline",-983715733),self__.trim_newline],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"leading-sign","leading-sign",-362968885),self__.leading_sign],null))], null),self__.__extmap));
 });
 
-blancas.kern.lexer.LanguageDef.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__30554){
+blancas.kern.lexer.LanguageDef.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__42233){
 var self__ = this;
-var G__30554__$1 = this;
-return (new cljs.core.RecordIter((0),G__30554__$1,12,new cljs.core.PersistentVector(null, 12, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"comment-start","comment-start",-1104408439),new cljs.core.Keyword(null,"comment-end","comment-end",-48325961),new cljs.core.Keyword(null,"comment-line","comment-line",-935339272),new cljs.core.Keyword(null,"nested-comments","nested-comments",-856738865),new cljs.core.Keyword(null,"identifier-start","identifier-start",-2096558846),new cljs.core.Keyword(null,"identifier-letter","identifier-letter",78001785),new cljs.core.Keyword(null,"reserved-names","reserved-names",-535805962),new cljs.core.Keyword(null,"case-sensitive","case-sensitive",-1005239404),new cljs.core.Keyword(null,"line-continuation","line-continuation",6492671),new cljs.core.Keyword(null,"trim-newline","trim-newline",-983715733),new cljs.core.Keyword(null,"leading-sign","leading-sign",-362968885)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator.call(null,self__.__extmap):cljs.core.nil_iter.call(null))));
+var G__42233__$1 = this;
+return (new cljs.core.RecordIter((0),G__42233__$1,12,new cljs.core.PersistentVector(null, 12, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"comment-start","comment-start",-1104408439),new cljs.core.Keyword(null,"comment-end","comment-end",-48325961),new cljs.core.Keyword(null,"comment-line","comment-line",-935339272),new cljs.core.Keyword(null,"nested-comments","nested-comments",-856738865),new cljs.core.Keyword(null,"identifier-start","identifier-start",-2096558846),new cljs.core.Keyword(null,"identifier-letter","identifier-letter",78001785),new cljs.core.Keyword(null,"reserved-names","reserved-names",-535805962),new cljs.core.Keyword(null,"case-sensitive","case-sensitive",-1005239404),new cljs.core.Keyword(null,"line-continuation","line-continuation",6492671),new cljs.core.Keyword(null,"trim-newline","trim-newline",-983715733),new cljs.core.Keyword(null,"leading-sign","leading-sign",-362968885)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator.call(null,self__.__extmap):cljs.core.nil_iter.call(null))));
 });
 
 blancas.kern.lexer.LanguageDef.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__27833__auto__){
@@ -160,10 +160,10 @@ return h__27649__auto____$1;
 }
 });
 
-blancas.kern.lexer.LanguageDef.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this30556,other30557){
+blancas.kern.lexer.LanguageDef.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this42235,other42236){
 var self__ = this;
-var this30556__$1 = this;
-return (!((other30557 == null))) && ((this30556__$1.constructor === other30557.constructor)) && (cljs.core._EQ_.call(null,this30556__$1.type,other30557.type)) && (cljs.core._EQ_.call(null,this30556__$1.comment_start,other30557.comment_start)) && (cljs.core._EQ_.call(null,this30556__$1.comment_end,other30557.comment_end)) && (cljs.core._EQ_.call(null,this30556__$1.comment_line,other30557.comment_line)) && (cljs.core._EQ_.call(null,this30556__$1.nested_comments,other30557.nested_comments)) && (cljs.core._EQ_.call(null,this30556__$1.identifier_start,other30557.identifier_start)) && (cljs.core._EQ_.call(null,this30556__$1.identifier_letter,other30557.identifier_letter)) && (cljs.core._EQ_.call(null,this30556__$1.reserved_names,other30557.reserved_names)) && (cljs.core._EQ_.call(null,this30556__$1.case_sensitive,other30557.case_sensitive)) && (cljs.core._EQ_.call(null,this30556__$1.line_continuation,other30557.line_continuation)) && (cljs.core._EQ_.call(null,this30556__$1.trim_newline,other30557.trim_newline)) && (cljs.core._EQ_.call(null,this30556__$1.leading_sign,other30557.leading_sign)) && (cljs.core._EQ_.call(null,this30556__$1.__extmap,other30557.__extmap));
+var this42235__$1 = this;
+return (!((other42236 == null))) && ((this42235__$1.constructor === other42236.constructor)) && (cljs.core._EQ_.call(null,this42235__$1.type,other42236.type)) && (cljs.core._EQ_.call(null,this42235__$1.comment_start,other42236.comment_start)) && (cljs.core._EQ_.call(null,this42235__$1.comment_end,other42236.comment_end)) && (cljs.core._EQ_.call(null,this42235__$1.comment_line,other42236.comment_line)) && (cljs.core._EQ_.call(null,this42235__$1.nested_comments,other42236.nested_comments)) && (cljs.core._EQ_.call(null,this42235__$1.identifier_start,other42236.identifier_start)) && (cljs.core._EQ_.call(null,this42235__$1.identifier_letter,other42236.identifier_letter)) && (cljs.core._EQ_.call(null,this42235__$1.reserved_names,other42236.reserved_names)) && (cljs.core._EQ_.call(null,this42235__$1.case_sensitive,other42236.case_sensitive)) && (cljs.core._EQ_.call(null,this42235__$1.line_continuation,other42236.line_continuation)) && (cljs.core._EQ_.call(null,this42235__$1.trim_newline,other42236.trim_newline)) && (cljs.core._EQ_.call(null,this42235__$1.leading_sign,other42236.leading_sign)) && (cljs.core._EQ_.call(null,this42235__$1.__extmap,other42236.__extmap));
 });
 
 blancas.kern.lexer.LanguageDef.prototype.cljs$core$IMap$_dissoc$arity$2 = (function (this__27844__auto__,k__27845__auto__){
@@ -176,48 +176,48 @@ return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self
 }
 });
 
-blancas.kern.lexer.LanguageDef.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__27842__auto__,k__27843__auto__,G__30554){
+blancas.kern.lexer.LanguageDef.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__27842__auto__,k__27843__auto__,G__42233){
 var self__ = this;
 var this__27842__auto____$1 = this;
-var pred__30560 = cljs.core.keyword_identical_QMARK_;
-var expr__30561 = k__27843__auto__;
-if(cljs.core.truth_(pred__30560.call(null,new cljs.core.Keyword(null,"type","type",1174270348),expr__30561))){
-return (new blancas.kern.lexer.LanguageDef(G__30554,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
+var pred__42239 = cljs.core.keyword_identical_QMARK_;
+var expr__42240 = k__27843__auto__;
+if(cljs.core.truth_(pred__42239.call(null,new cljs.core.Keyword(null,"type","type",1174270348),expr__42240))){
+return (new blancas.kern.lexer.LanguageDef(G__42233,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30560.call(null,new cljs.core.Keyword(null,"comment-start","comment-start",-1104408439),expr__30561))){
-return (new blancas.kern.lexer.LanguageDef(self__.type,G__30554,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42239.call(null,new cljs.core.Keyword(null,"comment-start","comment-start",-1104408439),expr__42240))){
+return (new blancas.kern.lexer.LanguageDef(self__.type,G__42233,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30560.call(null,new cljs.core.Keyword(null,"comment-end","comment-end",-48325961),expr__30561))){
-return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,G__30554,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42239.call(null,new cljs.core.Keyword(null,"comment-end","comment-end",-48325961),expr__42240))){
+return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,G__42233,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30560.call(null,new cljs.core.Keyword(null,"comment-line","comment-line",-935339272),expr__30561))){
-return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,G__30554,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42239.call(null,new cljs.core.Keyword(null,"comment-line","comment-line",-935339272),expr__42240))){
+return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,G__42233,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30560.call(null,new cljs.core.Keyword(null,"nested-comments","nested-comments",-856738865),expr__30561))){
-return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,G__30554,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42239.call(null,new cljs.core.Keyword(null,"nested-comments","nested-comments",-856738865),expr__42240))){
+return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,G__42233,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30560.call(null,new cljs.core.Keyword(null,"identifier-start","identifier-start",-2096558846),expr__30561))){
-return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,G__30554,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42239.call(null,new cljs.core.Keyword(null,"identifier-start","identifier-start",-2096558846),expr__42240))){
+return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,G__42233,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30560.call(null,new cljs.core.Keyword(null,"identifier-letter","identifier-letter",78001785),expr__30561))){
-return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,G__30554,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42239.call(null,new cljs.core.Keyword(null,"identifier-letter","identifier-letter",78001785),expr__42240))){
+return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,G__42233,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30560.call(null,new cljs.core.Keyword(null,"reserved-names","reserved-names",-535805962),expr__30561))){
-return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,G__30554,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42239.call(null,new cljs.core.Keyword(null,"reserved-names","reserved-names",-535805962),expr__42240))){
+return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,G__42233,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30560.call(null,new cljs.core.Keyword(null,"case-sensitive","case-sensitive",-1005239404),expr__30561))){
-return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,G__30554,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42239.call(null,new cljs.core.Keyword(null,"case-sensitive","case-sensitive",-1005239404),expr__42240))){
+return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,G__42233,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30560.call(null,new cljs.core.Keyword(null,"line-continuation","line-continuation",6492671),expr__30561))){
-return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,G__30554,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42239.call(null,new cljs.core.Keyword(null,"line-continuation","line-continuation",6492671),expr__42240))){
+return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,G__42233,self__.trim_newline,self__.leading_sign,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30560.call(null,new cljs.core.Keyword(null,"trim-newline","trim-newline",-983715733),expr__30561))){
-return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,G__30554,self__.leading_sign,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42239.call(null,new cljs.core.Keyword(null,"trim-newline","trim-newline",-983715733),expr__42240))){
+return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,G__42233,self__.leading_sign,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30560.call(null,new cljs.core.Keyword(null,"leading-sign","leading-sign",-362968885),expr__30561))){
-return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,G__30554,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42239.call(null,new cljs.core.Keyword(null,"leading-sign","leading-sign",-362968885),expr__42240))){
+return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,G__42233,self__.__meta,self__.__extmap,null));
 } else {
-return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,cljs.core.assoc.call(null,self__.__extmap,k__27843__auto__,G__30554),null));
+return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,self__.__meta,cljs.core.assoc.call(null,self__.__extmap,k__27843__auto__,G__42233),null));
 }
 }
 }
@@ -238,10 +238,10 @@ var this__27847__auto____$1 = this;
 return cljs.core.seq.call(null,cljs.core.concat.call(null,new cljs.core.PersistentVector(null, 12, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"type","type",1174270348),self__.type],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"comment-start","comment-start",-1104408439),self__.comment_start],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"comment-end","comment-end",-48325961),self__.comment_end],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"comment-line","comment-line",-935339272),self__.comment_line],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"nested-comments","nested-comments",-856738865),self__.nested_comments],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"identifier-start","identifier-start",-2096558846),self__.identifier_start],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"identifier-letter","identifier-letter",78001785),self__.identifier_letter],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"reserved-names","reserved-names",-535805962),self__.reserved_names],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"case-sensitive","case-sensitive",-1005239404),self__.case_sensitive],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"line-continuation","line-continuation",6492671),self__.line_continuation],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"trim-newline","trim-newline",-983715733),self__.trim_newline],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"leading-sign","leading-sign",-362968885),self__.leading_sign],null))], null),self__.__extmap));
 });
 
-blancas.kern.lexer.LanguageDef.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__27834__auto__,G__30554){
+blancas.kern.lexer.LanguageDef.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__27834__auto__,G__42233){
 var self__ = this;
 var this__27834__auto____$1 = this;
-return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,G__30554,self__.__extmap,self__.__hash));
+return (new blancas.kern.lexer.LanguageDef(self__.type,self__.comment_start,self__.comment_end,self__.comment_line,self__.nested_comments,self__.identifier_start,self__.identifier_letter,self__.reserved_names,self__.case_sensitive,self__.line_continuation,self__.trim_newline,self__.leading_sign,G__42233,self__.__extmap,self__.__hash));
 });
 
 blancas.kern.lexer.LanguageDef.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__27840__auto__,entry__27841__auto__){
@@ -272,8 +272,8 @@ blancas.kern.lexer.__GT_LanguageDef = (function blancas$kern$lexer$__GT_Language
 return (new blancas.kern.lexer.LanguageDef(type,comment_start,comment_end,comment_line,nested_comments,identifier_start,identifier_letter,reserved_names,case_sensitive,line_continuation,trim_newline,leading_sign,null,null,null));
 });
 
-blancas.kern.lexer.map__GT_LanguageDef = (function blancas$kern$lexer$map__GT_LanguageDef(G__30558){
-return (new blancas.kern.lexer.LanguageDef(new cljs.core.Keyword(null,"type","type",1174270348).cljs$core$IFn$_invoke$arity$1(G__30558),new cljs.core.Keyword(null,"comment-start","comment-start",-1104408439).cljs$core$IFn$_invoke$arity$1(G__30558),new cljs.core.Keyword(null,"comment-end","comment-end",-48325961).cljs$core$IFn$_invoke$arity$1(G__30558),new cljs.core.Keyword(null,"comment-line","comment-line",-935339272).cljs$core$IFn$_invoke$arity$1(G__30558),new cljs.core.Keyword(null,"nested-comments","nested-comments",-856738865).cljs$core$IFn$_invoke$arity$1(G__30558),new cljs.core.Keyword(null,"identifier-start","identifier-start",-2096558846).cljs$core$IFn$_invoke$arity$1(G__30558),new cljs.core.Keyword(null,"identifier-letter","identifier-letter",78001785).cljs$core$IFn$_invoke$arity$1(G__30558),new cljs.core.Keyword(null,"reserved-names","reserved-names",-535805962).cljs$core$IFn$_invoke$arity$1(G__30558),new cljs.core.Keyword(null,"case-sensitive","case-sensitive",-1005239404).cljs$core$IFn$_invoke$arity$1(G__30558),new cljs.core.Keyword(null,"line-continuation","line-continuation",6492671).cljs$core$IFn$_invoke$arity$1(G__30558),new cljs.core.Keyword(null,"trim-newline","trim-newline",-983715733).cljs$core$IFn$_invoke$arity$1(G__30558),new cljs.core.Keyword(null,"leading-sign","leading-sign",-362968885).cljs$core$IFn$_invoke$arity$1(G__30558),null,cljs.core.not_empty.call(null,cljs.core.dissoc.call(null,G__30558,new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"comment-start","comment-start",-1104408439),new cljs.core.Keyword(null,"comment-end","comment-end",-48325961),new cljs.core.Keyword(null,"comment-line","comment-line",-935339272),new cljs.core.Keyword(null,"nested-comments","nested-comments",-856738865),new cljs.core.Keyword(null,"identifier-start","identifier-start",-2096558846),new cljs.core.Keyword(null,"identifier-letter","identifier-letter",78001785),new cljs.core.Keyword(null,"reserved-names","reserved-names",-535805962),new cljs.core.Keyword(null,"case-sensitive","case-sensitive",-1005239404),new cljs.core.Keyword(null,"line-continuation","line-continuation",6492671),new cljs.core.Keyword(null,"trim-newline","trim-newline",-983715733),new cljs.core.Keyword(null,"leading-sign","leading-sign",-362968885))),null));
+blancas.kern.lexer.map__GT_LanguageDef = (function blancas$kern$lexer$map__GT_LanguageDef(G__42237){
+return (new blancas.kern.lexer.LanguageDef(new cljs.core.Keyword(null,"type","type",1174270348).cljs$core$IFn$_invoke$arity$1(G__42237),new cljs.core.Keyword(null,"comment-start","comment-start",-1104408439).cljs$core$IFn$_invoke$arity$1(G__42237),new cljs.core.Keyword(null,"comment-end","comment-end",-48325961).cljs$core$IFn$_invoke$arity$1(G__42237),new cljs.core.Keyword(null,"comment-line","comment-line",-935339272).cljs$core$IFn$_invoke$arity$1(G__42237),new cljs.core.Keyword(null,"nested-comments","nested-comments",-856738865).cljs$core$IFn$_invoke$arity$1(G__42237),new cljs.core.Keyword(null,"identifier-start","identifier-start",-2096558846).cljs$core$IFn$_invoke$arity$1(G__42237),new cljs.core.Keyword(null,"identifier-letter","identifier-letter",78001785).cljs$core$IFn$_invoke$arity$1(G__42237),new cljs.core.Keyword(null,"reserved-names","reserved-names",-535805962).cljs$core$IFn$_invoke$arity$1(G__42237),new cljs.core.Keyword(null,"case-sensitive","case-sensitive",-1005239404).cljs$core$IFn$_invoke$arity$1(G__42237),new cljs.core.Keyword(null,"line-continuation","line-continuation",6492671).cljs$core$IFn$_invoke$arity$1(G__42237),new cljs.core.Keyword(null,"trim-newline","trim-newline",-983715733).cljs$core$IFn$_invoke$arity$1(G__42237),new cljs.core.Keyword(null,"leading-sign","leading-sign",-362968885).cljs$core$IFn$_invoke$arity$1(G__42237),null,cljs.core.not_empty.call(null,cljs.core.dissoc.call(null,G__42237,new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"comment-start","comment-start",-1104408439),new cljs.core.Keyword(null,"comment-end","comment-end",-48325961),new cljs.core.Keyword(null,"comment-line","comment-line",-935339272),new cljs.core.Keyword(null,"nested-comments","nested-comments",-856738865),new cljs.core.Keyword(null,"identifier-start","identifier-start",-2096558846),new cljs.core.Keyword(null,"identifier-letter","identifier-letter",78001785),new cljs.core.Keyword(null,"reserved-names","reserved-names",-535805962),new cljs.core.Keyword(null,"case-sensitive","case-sensitive",-1005239404),new cljs.core.Keyword(null,"line-continuation","line-continuation",6492671),new cljs.core.Keyword(null,"trim-newline","trim-newline",-983715733),new cljs.core.Keyword(null,"leading-sign","leading-sign",-362968885))),null));
 });
 
 /**
@@ -357,12 +357,12 @@ var this__27835__auto____$1 = this;
 return this__27835__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__27836__auto__,null);
 });
 
-blancas.kern.lexer.TokenParsers.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__27837__auto__,k30565,else__27838__auto__){
+blancas.kern.lexer.TokenParsers.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__27837__auto__,k42244,else__27838__auto__){
 var self__ = this;
 var this__27837__auto____$1 = this;
-var G__30569 = k30565;
-var G__30569__$1 = (((G__30569 instanceof cljs.core.Keyword))?G__30569.fqn:null);
-switch (G__30569__$1) {
+var G__42248 = k42244;
+var G__42248__$1 = (((G__42248 instanceof cljs.core.Keyword))?G__42248.fqn:null);
+switch (G__42248__$1) {
 case "trim":
 return self__.trim;
 
@@ -484,7 +484,7 @@ return self__.comma_sep1;
 
 break;
 default:
-return cljs.core.get.call(null,self__.__extmap,k30565,else__27838__auto__);
+return cljs.core.get.call(null,self__.__extmap,k42244,else__27838__auto__);
 
 }
 });
@@ -500,10 +500,10 @@ return cljs.core.pr_sequential_writer.call(null,writer__27850__auto__,cljs.core.
 return cljs.core.pr_sequential_writer.call(null,writer__27850__auto__,pr_pair__27852__auto__,"#blancas.kern.lexer.TokenParsers{",", ","}",opts__27851__auto__,cljs.core.concat.call(null,new cljs.core.PersistentVector(null, 30, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"trim","trim",774319767),self__.trim],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"lexeme","lexeme",750515121),self__.lexeme],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"sym","sym",-1444860305),self__.sym],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"new-line","new-line",1060819447),self__.new_line],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"one-of","one-of",144367098),self__.one_of],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"none-of","none-of",-1115383390),self__.none_of],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"token","token",-1211463215),self__.token],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"word","word",-420123725),self__.word],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"identifier","identifier",-805503498),self__.identifier],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"field","field",-1302436500),self__.field],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"char-lit","char-lit",762455694),self__.char_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"string-lit","string-lit",1570344494),self__.string_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"dec-lit","dec-lit",-1364231639),self__.dec_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"oct-lit","oct-lit",-1521077730),self__.oct_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"hex-lit","hex-lit",-448097198),self__.hex_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"float-lit","float-lit",1663609324),self__.float_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"bool-lit","bool-lit",-1597378914),self__.bool_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"nil-lit","nil-lit",-1151930496),self__.nil_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"parens","parens",1028661830),self__.parens],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"braces","braces",907708519),self__.braces],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"angles","angles",-1220989759),self__.angles],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"brackets","brackets",1720097338),self__.brackets],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"semi","semi",276867757),self__.semi],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"comma","comma",1699024745),self__.comma],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"colon","colon",-965200945),self__.colon],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"dot","dot",1442709401),self__.dot],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"semi-sep","semi-sep",-796169557),self__.semi_sep],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"semi-sep1","semi-sep1",-700853510),self__.semi_sep1],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"comma-sep","comma-sep",1118800894),self__.comma_sep],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"comma-sep1","comma-sep1",412337366),self__.comma_sep1],null))], null),self__.__extmap));
 });
 
-blancas.kern.lexer.TokenParsers.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__30564){
+blancas.kern.lexer.TokenParsers.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__42243){
 var self__ = this;
-var G__30564__$1 = this;
-return (new cljs.core.RecordIter((0),G__30564__$1,30,new cljs.core.PersistentVector(null, 30, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"trim","trim",774319767),new cljs.core.Keyword(null,"lexeme","lexeme",750515121),new cljs.core.Keyword(null,"sym","sym",-1444860305),new cljs.core.Keyword(null,"new-line","new-line",1060819447),new cljs.core.Keyword(null,"one-of","one-of",144367098),new cljs.core.Keyword(null,"none-of","none-of",-1115383390),new cljs.core.Keyword(null,"token","token",-1211463215),new cljs.core.Keyword(null,"word","word",-420123725),new cljs.core.Keyword(null,"identifier","identifier",-805503498),new cljs.core.Keyword(null,"field","field",-1302436500),new cljs.core.Keyword(null,"char-lit","char-lit",762455694),new cljs.core.Keyword(null,"string-lit","string-lit",1570344494),new cljs.core.Keyword(null,"dec-lit","dec-lit",-1364231639),new cljs.core.Keyword(null,"oct-lit","oct-lit",-1521077730),new cljs.core.Keyword(null,"hex-lit","hex-lit",-448097198),new cljs.core.Keyword(null,"float-lit","float-lit",1663609324),new cljs.core.Keyword(null,"bool-lit","bool-lit",-1597378914),new cljs.core.Keyword(null,"nil-lit","nil-lit",-1151930496),new cljs.core.Keyword(null,"parens","parens",1028661830),new cljs.core.Keyword(null,"braces","braces",907708519),new cljs.core.Keyword(null,"angles","angles",-1220989759),new cljs.core.Keyword(null,"brackets","brackets",1720097338),new cljs.core.Keyword(null,"semi","semi",276867757),new cljs.core.Keyword(null,"comma","comma",1699024745),new cljs.core.Keyword(null,"colon","colon",-965200945),new cljs.core.Keyword(null,"dot","dot",1442709401),new cljs.core.Keyword(null,"semi-sep","semi-sep",-796169557),new cljs.core.Keyword(null,"semi-sep1","semi-sep1",-700853510),new cljs.core.Keyword(null,"comma-sep","comma-sep",1118800894),new cljs.core.Keyword(null,"comma-sep1","comma-sep1",412337366)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator.call(null,self__.__extmap):cljs.core.nil_iter.call(null))));
+var G__42243__$1 = this;
+return (new cljs.core.RecordIter((0),G__42243__$1,30,new cljs.core.PersistentVector(null, 30, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"trim","trim",774319767),new cljs.core.Keyword(null,"lexeme","lexeme",750515121),new cljs.core.Keyword(null,"sym","sym",-1444860305),new cljs.core.Keyword(null,"new-line","new-line",1060819447),new cljs.core.Keyword(null,"one-of","one-of",144367098),new cljs.core.Keyword(null,"none-of","none-of",-1115383390),new cljs.core.Keyword(null,"token","token",-1211463215),new cljs.core.Keyword(null,"word","word",-420123725),new cljs.core.Keyword(null,"identifier","identifier",-805503498),new cljs.core.Keyword(null,"field","field",-1302436500),new cljs.core.Keyword(null,"char-lit","char-lit",762455694),new cljs.core.Keyword(null,"string-lit","string-lit",1570344494),new cljs.core.Keyword(null,"dec-lit","dec-lit",-1364231639),new cljs.core.Keyword(null,"oct-lit","oct-lit",-1521077730),new cljs.core.Keyword(null,"hex-lit","hex-lit",-448097198),new cljs.core.Keyword(null,"float-lit","float-lit",1663609324),new cljs.core.Keyword(null,"bool-lit","bool-lit",-1597378914),new cljs.core.Keyword(null,"nil-lit","nil-lit",-1151930496),new cljs.core.Keyword(null,"parens","parens",1028661830),new cljs.core.Keyword(null,"braces","braces",907708519),new cljs.core.Keyword(null,"angles","angles",-1220989759),new cljs.core.Keyword(null,"brackets","brackets",1720097338),new cljs.core.Keyword(null,"semi","semi",276867757),new cljs.core.Keyword(null,"comma","comma",1699024745),new cljs.core.Keyword(null,"colon","colon",-965200945),new cljs.core.Keyword(null,"dot","dot",1442709401),new cljs.core.Keyword(null,"semi-sep","semi-sep",-796169557),new cljs.core.Keyword(null,"semi-sep1","semi-sep1",-700853510),new cljs.core.Keyword(null,"comma-sep","comma-sep",1118800894),new cljs.core.Keyword(null,"comma-sep1","comma-sep1",412337366)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator.call(null,self__.__extmap):cljs.core.nil_iter.call(null))));
 });
 
 blancas.kern.lexer.TokenParsers.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__27833__auto__){
@@ -542,10 +542,10 @@ return h__27649__auto____$1;
 }
 });
 
-blancas.kern.lexer.TokenParsers.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this30566,other30567){
+blancas.kern.lexer.TokenParsers.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this42245,other42246){
 var self__ = this;
-var this30566__$1 = this;
-return (!((other30567 == null))) && ((this30566__$1.constructor === other30567.constructor)) && (cljs.core._EQ_.call(null,this30566__$1.trim,other30567.trim)) && (cljs.core._EQ_.call(null,this30566__$1.lexeme,other30567.lexeme)) && (cljs.core._EQ_.call(null,this30566__$1.sym,other30567.sym)) && (cljs.core._EQ_.call(null,this30566__$1.new_line,other30567.new_line)) && (cljs.core._EQ_.call(null,this30566__$1.one_of,other30567.one_of)) && (cljs.core._EQ_.call(null,this30566__$1.none_of,other30567.none_of)) && (cljs.core._EQ_.call(null,this30566__$1.token,other30567.token)) && (cljs.core._EQ_.call(null,this30566__$1.word,other30567.word)) && (cljs.core._EQ_.call(null,this30566__$1.identifier,other30567.identifier)) && (cljs.core._EQ_.call(null,this30566__$1.field,other30567.field)) && (cljs.core._EQ_.call(null,this30566__$1.char_lit,other30567.char_lit)) && (cljs.core._EQ_.call(null,this30566__$1.string_lit,other30567.string_lit)) && (cljs.core._EQ_.call(null,this30566__$1.dec_lit,other30567.dec_lit)) && (cljs.core._EQ_.call(null,this30566__$1.oct_lit,other30567.oct_lit)) && (cljs.core._EQ_.call(null,this30566__$1.hex_lit,other30567.hex_lit)) && (cljs.core._EQ_.call(null,this30566__$1.float_lit,other30567.float_lit)) && (cljs.core._EQ_.call(null,this30566__$1.bool_lit,other30567.bool_lit)) && (cljs.core._EQ_.call(null,this30566__$1.nil_lit,other30567.nil_lit)) && (cljs.core._EQ_.call(null,this30566__$1.parens,other30567.parens)) && (cljs.core._EQ_.call(null,this30566__$1.braces,other30567.braces)) && (cljs.core._EQ_.call(null,this30566__$1.angles,other30567.angles)) && (cljs.core._EQ_.call(null,this30566__$1.brackets,other30567.brackets)) && (cljs.core._EQ_.call(null,this30566__$1.semi,other30567.semi)) && (cljs.core._EQ_.call(null,this30566__$1.comma,other30567.comma)) && (cljs.core._EQ_.call(null,this30566__$1.colon,other30567.colon)) && (cljs.core._EQ_.call(null,this30566__$1.dot,other30567.dot)) && (cljs.core._EQ_.call(null,this30566__$1.semi_sep,other30567.semi_sep)) && (cljs.core._EQ_.call(null,this30566__$1.semi_sep1,other30567.semi_sep1)) && (cljs.core._EQ_.call(null,this30566__$1.comma_sep,other30567.comma_sep)) && (cljs.core._EQ_.call(null,this30566__$1.comma_sep1,other30567.comma_sep1)) && (cljs.core._EQ_.call(null,this30566__$1.__extmap,other30567.__extmap));
+var this42245__$1 = this;
+return (!((other42246 == null))) && ((this42245__$1.constructor === other42246.constructor)) && (cljs.core._EQ_.call(null,this42245__$1.trim,other42246.trim)) && (cljs.core._EQ_.call(null,this42245__$1.lexeme,other42246.lexeme)) && (cljs.core._EQ_.call(null,this42245__$1.sym,other42246.sym)) && (cljs.core._EQ_.call(null,this42245__$1.new_line,other42246.new_line)) && (cljs.core._EQ_.call(null,this42245__$1.one_of,other42246.one_of)) && (cljs.core._EQ_.call(null,this42245__$1.none_of,other42246.none_of)) && (cljs.core._EQ_.call(null,this42245__$1.token,other42246.token)) && (cljs.core._EQ_.call(null,this42245__$1.word,other42246.word)) && (cljs.core._EQ_.call(null,this42245__$1.identifier,other42246.identifier)) && (cljs.core._EQ_.call(null,this42245__$1.field,other42246.field)) && (cljs.core._EQ_.call(null,this42245__$1.char_lit,other42246.char_lit)) && (cljs.core._EQ_.call(null,this42245__$1.string_lit,other42246.string_lit)) && (cljs.core._EQ_.call(null,this42245__$1.dec_lit,other42246.dec_lit)) && (cljs.core._EQ_.call(null,this42245__$1.oct_lit,other42246.oct_lit)) && (cljs.core._EQ_.call(null,this42245__$1.hex_lit,other42246.hex_lit)) && (cljs.core._EQ_.call(null,this42245__$1.float_lit,other42246.float_lit)) && (cljs.core._EQ_.call(null,this42245__$1.bool_lit,other42246.bool_lit)) && (cljs.core._EQ_.call(null,this42245__$1.nil_lit,other42246.nil_lit)) && (cljs.core._EQ_.call(null,this42245__$1.parens,other42246.parens)) && (cljs.core._EQ_.call(null,this42245__$1.braces,other42246.braces)) && (cljs.core._EQ_.call(null,this42245__$1.angles,other42246.angles)) && (cljs.core._EQ_.call(null,this42245__$1.brackets,other42246.brackets)) && (cljs.core._EQ_.call(null,this42245__$1.semi,other42246.semi)) && (cljs.core._EQ_.call(null,this42245__$1.comma,other42246.comma)) && (cljs.core._EQ_.call(null,this42245__$1.colon,other42246.colon)) && (cljs.core._EQ_.call(null,this42245__$1.dot,other42246.dot)) && (cljs.core._EQ_.call(null,this42245__$1.semi_sep,other42246.semi_sep)) && (cljs.core._EQ_.call(null,this42245__$1.semi_sep1,other42246.semi_sep1)) && (cljs.core._EQ_.call(null,this42245__$1.comma_sep,other42246.comma_sep)) && (cljs.core._EQ_.call(null,this42245__$1.comma_sep1,other42246.comma_sep1)) && (cljs.core._EQ_.call(null,this42245__$1.__extmap,other42246.__extmap));
 });
 
 blancas.kern.lexer.TokenParsers.prototype.cljs$core$IMap$_dissoc$arity$2 = (function (this__27844__auto__,k__27845__auto__){
@@ -558,102 +558,102 @@ return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym
 }
 });
 
-blancas.kern.lexer.TokenParsers.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__27842__auto__,k__27843__auto__,G__30564){
+blancas.kern.lexer.TokenParsers.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__27842__auto__,k__27843__auto__,G__42243){
 var self__ = this;
 var this__27842__auto____$1 = this;
-var pred__30570 = cljs.core.keyword_identical_QMARK_;
-var expr__30571 = k__27843__auto__;
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"trim","trim",774319767),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(G__30564,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+var pred__42249 = cljs.core.keyword_identical_QMARK_;
+var expr__42250 = k__27843__auto__;
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"trim","trim",774319767),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(G__42243,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"lexeme","lexeme",750515121),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,G__30564,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"lexeme","lexeme",750515121),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,G__42243,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"sym","sym",-1444860305),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,G__30564,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"sym","sym",-1444860305),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,G__42243,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"new-line","new-line",1060819447),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,G__30564,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"new-line","new-line",1060819447),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,G__42243,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"one-of","one-of",144367098),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,G__30564,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"one-of","one-of",144367098),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,G__42243,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"none-of","none-of",-1115383390),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,G__30564,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"none-of","none-of",-1115383390),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,G__42243,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"token","token",-1211463215),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,G__30564,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"token","token",-1211463215),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,G__42243,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"word","word",-420123725),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,G__30564,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"word","word",-420123725),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,G__42243,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"identifier","identifier",-805503498),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,G__30564,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"identifier","identifier",-805503498),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,G__42243,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"field","field",-1302436500),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,G__30564,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"field","field",-1302436500),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,G__42243,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"char-lit","char-lit",762455694),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,G__30564,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"char-lit","char-lit",762455694),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,G__42243,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"string-lit","string-lit",1570344494),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,G__30564,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"string-lit","string-lit",1570344494),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,G__42243,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"dec-lit","dec-lit",-1364231639),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,G__30564,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"dec-lit","dec-lit",-1364231639),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,G__42243,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"oct-lit","oct-lit",-1521077730),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,G__30564,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"oct-lit","oct-lit",-1521077730),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,G__42243,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"hex-lit","hex-lit",-448097198),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,G__30564,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"hex-lit","hex-lit",-448097198),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,G__42243,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"float-lit","float-lit",1663609324),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,G__30564,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"float-lit","float-lit",1663609324),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,G__42243,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"bool-lit","bool-lit",-1597378914),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,G__30564,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"bool-lit","bool-lit",-1597378914),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,G__42243,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"nil-lit","nil-lit",-1151930496),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,G__30564,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"nil-lit","nil-lit",-1151930496),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,G__42243,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"parens","parens",1028661830),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,G__30564,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"parens","parens",1028661830),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,G__42243,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"braces","braces",907708519),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,G__30564,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"braces","braces",907708519),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,G__42243,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"angles","angles",-1220989759),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,G__30564,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"angles","angles",-1220989759),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,G__42243,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"brackets","brackets",1720097338),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,G__30564,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"brackets","brackets",1720097338),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,G__42243,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"semi","semi",276867757),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,G__30564,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"semi","semi",276867757),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,G__42243,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"comma","comma",1699024745),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,G__30564,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"comma","comma",1699024745),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,G__42243,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"colon","colon",-965200945),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,G__30564,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"colon","colon",-965200945),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,G__42243,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"dot","dot",1442709401),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,G__30564,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"dot","dot",1442709401),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,G__42243,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"semi-sep","semi-sep",-796169557),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,G__30564,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"semi-sep","semi-sep",-796169557),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,G__42243,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"semi-sep1","semi-sep1",-700853510),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,G__30564,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"semi-sep1","semi-sep1",-700853510),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,G__42243,self__.comma_sep,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"comma-sep","comma-sep",1118800894),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,G__30564,self__.comma_sep1,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"comma-sep","comma-sep",1118800894),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,G__42243,self__.comma_sep1,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_(pred__30570.call(null,new cljs.core.Keyword(null,"comma-sep1","comma-sep1",412337366),expr__30571))){
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,G__30564,self__.__meta,self__.__extmap,null));
+if(cljs.core.truth_(pred__42249.call(null,new cljs.core.Keyword(null,"comma-sep1","comma-sep1",412337366),expr__42250))){
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,G__42243,self__.__meta,self__.__extmap,null));
 } else {
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,cljs.core.assoc.call(null,self__.__extmap,k__27843__auto__,G__30564),null));
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,self__.__meta,cljs.core.assoc.call(null,self__.__extmap,k__27843__auto__,G__42243),null));
 }
 }
 }
@@ -692,10 +692,10 @@ var this__27847__auto____$1 = this;
 return cljs.core.seq.call(null,cljs.core.concat.call(null,new cljs.core.PersistentVector(null, 30, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"trim","trim",774319767),self__.trim],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"lexeme","lexeme",750515121),self__.lexeme],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"sym","sym",-1444860305),self__.sym],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"new-line","new-line",1060819447),self__.new_line],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"one-of","one-of",144367098),self__.one_of],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"none-of","none-of",-1115383390),self__.none_of],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"token","token",-1211463215),self__.token],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"word","word",-420123725),self__.word],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"identifier","identifier",-805503498),self__.identifier],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"field","field",-1302436500),self__.field],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"char-lit","char-lit",762455694),self__.char_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"string-lit","string-lit",1570344494),self__.string_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"dec-lit","dec-lit",-1364231639),self__.dec_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"oct-lit","oct-lit",-1521077730),self__.oct_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"hex-lit","hex-lit",-448097198),self__.hex_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"float-lit","float-lit",1663609324),self__.float_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"bool-lit","bool-lit",-1597378914),self__.bool_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"nil-lit","nil-lit",-1151930496),self__.nil_lit],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"parens","parens",1028661830),self__.parens],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"braces","braces",907708519),self__.braces],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"angles","angles",-1220989759),self__.angles],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"brackets","brackets",1720097338),self__.brackets],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"semi","semi",276867757),self__.semi],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"comma","comma",1699024745),self__.comma],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"colon","colon",-965200945),self__.colon],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"dot","dot",1442709401),self__.dot],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"semi-sep","semi-sep",-796169557),self__.semi_sep],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"semi-sep1","semi-sep1",-700853510),self__.semi_sep1],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"comma-sep","comma-sep",1118800894),self__.comma_sep],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"comma-sep1","comma-sep1",412337366),self__.comma_sep1],null))], null),self__.__extmap));
 });
 
-blancas.kern.lexer.TokenParsers.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__27834__auto__,G__30564){
+blancas.kern.lexer.TokenParsers.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__27834__auto__,G__42243){
 var self__ = this;
 var this__27834__auto____$1 = this;
-return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,G__30564,self__.__extmap,self__.__hash));
+return (new blancas.kern.lexer.TokenParsers(self__.trim,self__.lexeme,self__.sym,self__.new_line,self__.one_of,self__.none_of,self__.token,self__.word,self__.identifier,self__.field,self__.char_lit,self__.string_lit,self__.dec_lit,self__.oct_lit,self__.hex_lit,self__.float_lit,self__.bool_lit,self__.nil_lit,self__.parens,self__.braces,self__.angles,self__.brackets,self__.semi,self__.comma,self__.colon,self__.dot,self__.semi_sep,self__.semi_sep1,self__.comma_sep,self__.comma_sep1,G__42243,self__.__extmap,self__.__hash));
 });
 
 blancas.kern.lexer.TokenParsers.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__27840__auto__,entry__27841__auto__){
@@ -726,8 +726,8 @@ blancas.kern.lexer.__GT_TokenParsers = (function blancas$kern$lexer$__GT_TokenPa
 return (new blancas.kern.lexer.TokenParsers(trim,lexeme,sym,new_line,one_of,none_of,token,word,identifier,field,char_lit,string_lit,dec_lit,oct_lit,hex_lit,float_lit,bool_lit,nil_lit,parens,braces,angles,brackets,semi,comma,colon,dot,semi_sep,semi_sep1,comma_sep,comma_sep1,null,null,null));
 });
 
-blancas.kern.lexer.map__GT_TokenParsers = (function blancas$kern$lexer$map__GT_TokenParsers(G__30568){
-return (new blancas.kern.lexer.TokenParsers(new cljs.core.Keyword(null,"trim","trim",774319767).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"lexeme","lexeme",750515121).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"sym","sym",-1444860305).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"new-line","new-line",1060819447).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"one-of","one-of",144367098).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"none-of","none-of",-1115383390).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"token","token",-1211463215).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"word","word",-420123725).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"identifier","identifier",-805503498).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"field","field",-1302436500).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"char-lit","char-lit",762455694).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"string-lit","string-lit",1570344494).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"dec-lit","dec-lit",-1364231639).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"oct-lit","oct-lit",-1521077730).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"hex-lit","hex-lit",-448097198).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"float-lit","float-lit",1663609324).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"bool-lit","bool-lit",-1597378914).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"nil-lit","nil-lit",-1151930496).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"parens","parens",1028661830).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"braces","braces",907708519).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"angles","angles",-1220989759).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"brackets","brackets",1720097338).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"semi","semi",276867757).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"comma","comma",1699024745).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"colon","colon",-965200945).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"dot","dot",1442709401).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"semi-sep","semi-sep",-796169557).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"semi-sep1","semi-sep1",-700853510).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"comma-sep","comma-sep",1118800894).cljs$core$IFn$_invoke$arity$1(G__30568),new cljs.core.Keyword(null,"comma-sep1","comma-sep1",412337366).cljs$core$IFn$_invoke$arity$1(G__30568),null,cljs.core.not_empty.call(null,cljs.core.dissoc.call(null,G__30568,new cljs.core.Keyword(null,"trim","trim",774319767),new cljs.core.Keyword(null,"lexeme","lexeme",750515121),new cljs.core.Keyword(null,"sym","sym",-1444860305),new cljs.core.Keyword(null,"new-line","new-line",1060819447),new cljs.core.Keyword(null,"one-of","one-of",144367098),new cljs.core.Keyword(null,"none-of","none-of",-1115383390),new cljs.core.Keyword(null,"token","token",-1211463215),new cljs.core.Keyword(null,"word","word",-420123725),new cljs.core.Keyword(null,"identifier","identifier",-805503498),new cljs.core.Keyword(null,"field","field",-1302436500),new cljs.core.Keyword(null,"char-lit","char-lit",762455694),new cljs.core.Keyword(null,"string-lit","string-lit",1570344494),new cljs.core.Keyword(null,"dec-lit","dec-lit",-1364231639),new cljs.core.Keyword(null,"oct-lit","oct-lit",-1521077730),new cljs.core.Keyword(null,"hex-lit","hex-lit",-448097198),new cljs.core.Keyword(null,"float-lit","float-lit",1663609324),new cljs.core.Keyword(null,"bool-lit","bool-lit",-1597378914),new cljs.core.Keyword(null,"nil-lit","nil-lit",-1151930496),new cljs.core.Keyword(null,"parens","parens",1028661830),new cljs.core.Keyword(null,"braces","braces",907708519),new cljs.core.Keyword(null,"angles","angles",-1220989759),new cljs.core.Keyword(null,"brackets","brackets",1720097338),new cljs.core.Keyword(null,"semi","semi",276867757),new cljs.core.Keyword(null,"comma","comma",1699024745),new cljs.core.Keyword(null,"colon","colon",-965200945),new cljs.core.Keyword(null,"dot","dot",1442709401),new cljs.core.Keyword(null,"semi-sep","semi-sep",-796169557),new cljs.core.Keyword(null,"semi-sep1","semi-sep1",-700853510),new cljs.core.Keyword(null,"comma-sep","comma-sep",1118800894),new cljs.core.Keyword(null,"comma-sep1","comma-sep1",412337366))),null));
+blancas.kern.lexer.map__GT_TokenParsers = (function blancas$kern$lexer$map__GT_TokenParsers(G__42247){
+return (new blancas.kern.lexer.TokenParsers(new cljs.core.Keyword(null,"trim","trim",774319767).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"lexeme","lexeme",750515121).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"sym","sym",-1444860305).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"new-line","new-line",1060819447).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"one-of","one-of",144367098).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"none-of","none-of",-1115383390).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"token","token",-1211463215).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"word","word",-420123725).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"identifier","identifier",-805503498).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"field","field",-1302436500).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"char-lit","char-lit",762455694).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"string-lit","string-lit",1570344494).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"dec-lit","dec-lit",-1364231639).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"oct-lit","oct-lit",-1521077730).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"hex-lit","hex-lit",-448097198).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"float-lit","float-lit",1663609324).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"bool-lit","bool-lit",-1597378914).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"nil-lit","nil-lit",-1151930496).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"parens","parens",1028661830).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"braces","braces",907708519).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"angles","angles",-1220989759).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"brackets","brackets",1720097338).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"semi","semi",276867757).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"comma","comma",1699024745).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"colon","colon",-965200945).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"dot","dot",1442709401).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"semi-sep","semi-sep",-796169557).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"semi-sep1","semi-sep1",-700853510).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"comma-sep","comma-sep",1118800894).cljs$core$IFn$_invoke$arity$1(G__42247),new cljs.core.Keyword(null,"comma-sep1","comma-sep1",412337366).cljs$core$IFn$_invoke$arity$1(G__42247),null,cljs.core.not_empty.call(null,cljs.core.dissoc.call(null,G__42247,new cljs.core.Keyword(null,"trim","trim",774319767),new cljs.core.Keyword(null,"lexeme","lexeme",750515121),new cljs.core.Keyword(null,"sym","sym",-1444860305),new cljs.core.Keyword(null,"new-line","new-line",1060819447),new cljs.core.Keyword(null,"one-of","one-of",144367098),new cljs.core.Keyword(null,"none-of","none-of",-1115383390),new cljs.core.Keyword(null,"token","token",-1211463215),new cljs.core.Keyword(null,"word","word",-420123725),new cljs.core.Keyword(null,"identifier","identifier",-805503498),new cljs.core.Keyword(null,"field","field",-1302436500),new cljs.core.Keyword(null,"char-lit","char-lit",762455694),new cljs.core.Keyword(null,"string-lit","string-lit",1570344494),new cljs.core.Keyword(null,"dec-lit","dec-lit",-1364231639),new cljs.core.Keyword(null,"oct-lit","oct-lit",-1521077730),new cljs.core.Keyword(null,"hex-lit","hex-lit",-448097198),new cljs.core.Keyword(null,"float-lit","float-lit",1663609324),new cljs.core.Keyword(null,"bool-lit","bool-lit",-1597378914),new cljs.core.Keyword(null,"nil-lit","nil-lit",-1151930496),new cljs.core.Keyword(null,"parens","parens",1028661830),new cljs.core.Keyword(null,"braces","braces",907708519),new cljs.core.Keyword(null,"angles","angles",-1220989759),new cljs.core.Keyword(null,"brackets","brackets",1720097338),new cljs.core.Keyword(null,"semi","semi",276867757),new cljs.core.Keyword(null,"comma","comma",1699024745),new cljs.core.Keyword(null,"colon","colon",-965200945),new cljs.core.Keyword(null,"dot","dot",1442709401),new cljs.core.Keyword(null,"semi-sep","semi-sep",-796169557),new cljs.core.Keyword(null,"semi-sep1","semi-sep1",-700853510),new cljs.core.Keyword(null,"comma-sep","comma-sep",1118800894),new cljs.core.Keyword(null,"comma-sep1","comma-sep1",412337366))),null));
 });
 
 /**
@@ -778,22 +778,22 @@ return null;
  *        according to :case-sensitive. Calls (trim) afterwards.
  */
 blancas.kern.lexer.token = (function blancas$kern$lexer$token(var_args){
-var G__30577 = arguments.length;
-switch (G__30577) {
+var G__42256 = arguments.length;
+switch (G__42256) {
 case 1:
 return blancas.kern.lexer.token.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
 break;
 default:
 var args_arr__28383__auto__ = [];
-var len__28364__auto___30579 = arguments.length;
-var i__28365__auto___30580 = (0);
+var len__28364__auto___42258 = arguments.length;
+var i__28365__auto___42259 = (0);
 while(true){
-if((i__28365__auto___30580 < len__28364__auto___30579)){
-args_arr__28383__auto__.push((arguments[i__28365__auto___30580]));
+if((i__28365__auto___42259 < len__28364__auto___42258)){
+args_arr__28383__auto__.push((arguments[i__28365__auto___42259]));
 
-var G__30581 = (i__28365__auto___30580 + (1));
-i__28365__auto___30580 = G__30581;
+var G__42260 = (i__28365__auto___42259 + (1));
+i__28365__auto___42259 = G__42260;
 continue;
 } else {
 }
@@ -814,10 +814,10 @@ blancas.kern.lexer.token.cljs$core$IFn$_invoke$arity$variadic = (function (cs,mo
 return null;
 });
 
-blancas.kern.lexer.token.cljs$lang$applyTo = (function (seq30575){
-var G__30576 = cljs.core.first.call(null,seq30575);
-var seq30575__$1 = cljs.core.next.call(null,seq30575);
-return blancas.kern.lexer.token.cljs$core$IFn$_invoke$arity$variadic(G__30576,seq30575__$1);
+blancas.kern.lexer.token.cljs$lang$applyTo = (function (seq42254){
+var G__42255 = cljs.core.first.call(null,seq42254);
+var seq42254__$1 = cljs.core.next.call(null,seq42254);
+return blancas.kern.lexer.token.cljs$core$IFn$_invoke$arity$variadic(G__42255,seq42254__$1);
 });
 
 blancas.kern.lexer.token.cljs$lang$maxFixedArity = (1);
@@ -829,22 +829,22 @@ blancas.kern.lexer.token.cljs$lang$maxFixedArity = (1);
  *        Calls (trim) afterwards.
  */
 blancas.kern.lexer.word = (function blancas$kern$lexer$word(var_args){
-var G__30585 = arguments.length;
-switch (G__30585) {
+var G__42264 = arguments.length;
+switch (G__42264) {
 case 1:
 return blancas.kern.lexer.word.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
 break;
 default:
 var args_arr__28383__auto__ = [];
-var len__28364__auto___30587 = arguments.length;
-var i__28365__auto___30588 = (0);
+var len__28364__auto___42266 = arguments.length;
+var i__28365__auto___42267 = (0);
 while(true){
-if((i__28365__auto___30588 < len__28364__auto___30587)){
-args_arr__28383__auto__.push((arguments[i__28365__auto___30588]));
+if((i__28365__auto___42267 < len__28364__auto___42266)){
+args_arr__28383__auto__.push((arguments[i__28365__auto___42267]));
 
-var G__30589 = (i__28365__auto___30588 + (1));
-i__28365__auto___30588 = G__30589;
+var G__42268 = (i__28365__auto___42267 + (1));
+i__28365__auto___42267 = G__42268;
 continue;
 } else {
 }
@@ -865,10 +865,10 @@ blancas.kern.lexer.word.cljs$core$IFn$_invoke$arity$variadic = (function (cs,mor
 return null;
 });
 
-blancas.kern.lexer.word.cljs$lang$applyTo = (function (seq30583){
-var G__30584 = cljs.core.first.call(null,seq30583);
-var seq30583__$1 = cljs.core.next.call(null,seq30583);
-return blancas.kern.lexer.word.cljs$core$IFn$_invoke$arity$variadic(G__30584,seq30583__$1);
+blancas.kern.lexer.word.cljs$lang$applyTo = (function (seq42262){
+var G__42263 = cljs.core.first.call(null,seq42262);
+var seq42262__$1 = cljs.core.next.call(null,seq42262);
+return blancas.kern.lexer.word.cljs$core$IFn$_invoke$arity$variadic(G__42263,seq42262__$1);
 });
 
 blancas.kern.lexer.word.cljs$lang$maxFixedArity = (1);
@@ -1110,8 +1110,8 @@ return c.charCodeAt((0));
  * Parses an unquoted character literal. Character c must be escaped.
  */
 blancas.kern.lexer.basic_char = (function blancas$kern$lexer$basic_char(c){
-return blancas.kern.core._LT__QMARK__GT_.call(null,blancas.kern.core._LT__BAR__GT_.call(null,blancas.kern.core.satisfy.call(null,(function (p1__30590_SHARP_){
-return (cljs.core.not_EQ_.call(null,p1__30590_SHARP_,c)) && (cljs.core.not_EQ_.call(null,p1__30590_SHARP_,"\\")) && ((blancas.kern.lexer.char_code.call(null,p1__30590_SHARP_) >= blancas.kern.lexer.space_ascii));
+return blancas.kern.core._LT__QMARK__GT_.call(null,blancas.kern.core._LT__BAR__GT_.call(null,blancas.kern.core.satisfy.call(null,(function (p1__42269_SHARP_){
+return (cljs.core.not_EQ_.call(null,p1__42269_SHARP_,c)) && (cljs.core.not_EQ_.call(null,p1__42269_SHARP_,"\\")) && ((blancas.kern.lexer.char_code.call(null,p1__42269_SHARP_) >= blancas.kern.lexer.space_ascii));
 })),blancas.kern.core._GT__GT_.call(null,blancas.kern.core.sym_STAR_.call(null,"\\"),blancas.kern.lexer.esc_char)),blancas.kern.i18n.i18n.call(null,new cljs.core.Keyword(null,"char-lit","char-lit",762455694)));
 });
 /**
@@ -1135,8 +1135,8 @@ return blancas.kern.core.return$.call(null,(String.fromCodePoint(parseInt(x,(16)
  * Parses an unquoted Java character literal. Character c must be escaped.
  */
 blancas.kern.lexer.java_char = (function blancas$kern$lexer$java_char(c){
-return blancas.kern.core._LT__QMARK__GT_.call(null,blancas.kern.core._LT__BAR__GT_.call(null,blancas.kern.core.satisfy.call(null,(function (p1__30591_SHARP_){
-return (cljs.core.not_EQ_.call(null,p1__30591_SHARP_,c)) && (cljs.core.not_EQ_.call(null,p1__30591_SHARP_,"\\")) && ((blancas.kern.lexer.char_code.call(null,p1__30591_SHARP_) >= blancas.kern.lexer.space_ascii));
+return blancas.kern.core._LT__QMARK__GT_.call(null,blancas.kern.core._LT__BAR__GT_.call(null,blancas.kern.core.satisfy.call(null,(function (p1__42270_SHARP_){
+return (cljs.core.not_EQ_.call(null,p1__42270_SHARP_,c)) && (cljs.core.not_EQ_.call(null,p1__42270_SHARP_,"\\")) && ((blancas.kern.lexer.char_code.call(null,p1__42270_SHARP_) >= blancas.kern.lexer.space_ascii));
 })),blancas.kern.core._GT__GT_.call(null,blancas.kern.core.sym_STAR_.call(null,"\\"),blancas.kern.core._LT__QMARK__GT_.call(null,blancas.kern.core._LT__BAR__GT_.call(null,blancas.kern.lexer.esc_char,blancas.kern.lexer.esc_oct,blancas.kern.lexer.esc_uni),blancas.kern.i18n.i18n.call(null,new cljs.core.Keyword(null,"esc-code-j","esc-code-j",145779396))))),blancas.kern.i18n.i18n.call(null,new cljs.core.Keyword(null,"char-lit","char-lit",762455694)));
 });
 /**
@@ -1165,8 +1165,8 @@ return blancas.kern.core.return$.call(null,(String.fromCodePoint(parseInt(x,(16)
  * Parses an unquoted C character literal. Character c must be escaped.
  */
 blancas.kern.lexer.c_char = (function blancas$kern$lexer$c_char(c){
-return blancas.kern.core._LT__QMARK__GT_.call(null,blancas.kern.core._LT__BAR__GT_.call(null,blancas.kern.core.satisfy.call(null,(function (p1__30592_SHARP_){
-return (cljs.core.not_EQ_.call(null,p1__30592_SHARP_,c)) && (cljs.core.not_EQ_.call(null,p1__30592_SHARP_,"\\")) && ((blancas.kern.lexer.char_code.call(null,p1__30592_SHARP_) >= blancas.kern.lexer.space_ascii));
+return blancas.kern.core._LT__QMARK__GT_.call(null,blancas.kern.core._LT__BAR__GT_.call(null,blancas.kern.core.satisfy.call(null,(function (p1__42271_SHARP_){
+return (cljs.core.not_EQ_.call(null,p1__42271_SHARP_,c)) && (cljs.core.not_EQ_.call(null,p1__42271_SHARP_,"\\")) && ((blancas.kern.lexer.char_code.call(null,p1__42271_SHARP_) >= blancas.kern.lexer.space_ascii));
 })),blancas.kern.core._GT__GT_.call(null,blancas.kern.core.sym_STAR_.call(null,"\\"),blancas.kern.core._LT__QMARK__GT_.call(null,blancas.kern.core._LT__BAR__GT_.call(null,blancas.kern.lexer.c_esc_hex,blancas.kern.lexer.c_esc_char,blancas.kern.lexer.esc_oct,blancas.kern.lexer.esc_uni,blancas.kern.lexer.c_esc_uni),blancas.kern.i18n.i18n.call(null,new cljs.core.Keyword(null,"esc-code-c","esc-code-c",453502246))))),blancas.kern.i18n.i18n.call(null,new cljs.core.Keyword(null,"char-lit","char-lit",762455694)));
 });
 /**
@@ -1206,8 +1206,8 @@ return blancas.kern.core.fail.call(null,blancas.kern.i18n.i18n.call(null,new clj
  * Parses Haskell character literals.
  */
 blancas.kern.lexer.haskell_char = (function blancas$kern$lexer$haskell_char(c){
-return blancas.kern.core._LT__QMARK__GT_.call(null,blancas.kern.core._LT__BAR__GT_.call(null,blancas.kern.core.satisfy.call(null,(function (p1__30593_SHARP_){
-return (cljs.core.not_EQ_.call(null,p1__30593_SHARP_,c)) && (cljs.core.not_EQ_.call(null,p1__30593_SHARP_,"\\")) && ((blancas.kern.lexer.char_code.call(null,p1__30593_SHARP_) >= blancas.kern.lexer.space_ascii));
+return blancas.kern.core._LT__QMARK__GT_.call(null,blancas.kern.core._LT__BAR__GT_.call(null,blancas.kern.core.satisfy.call(null,(function (p1__42272_SHARP_){
+return (cljs.core.not_EQ_.call(null,p1__42272_SHARP_,c)) && (cljs.core.not_EQ_.call(null,p1__42272_SHARP_,"\\")) && ((blancas.kern.lexer.char_code.call(null,p1__42272_SHARP_) >= blancas.kern.lexer.space_ascii));
 })),blancas.kern.core._GT__GT_.call(null,blancas.kern.core.sym_STAR_.call(null,"\\"),blancas.kern.core._LT__QMARK__GT_.call(null,blancas.kern.core._LT__BAR__GT_.call(null,blancas.kern.lexer.h_esc_hex,blancas.kern.lexer.h_esc_oct,blancas.kern.lexer.c_esc_char,blancas.kern.lexer.h_esc_dec),blancas.kern.i18n.i18n.call(null,new cljs.core.Keyword(null,"esc-code-h","esc-code-h",-50056298))))),blancas.kern.i18n.i18n.call(null,new cljs.core.Keyword(null,"char-lit","char-lit",762455694)));
 });
 /**
@@ -1293,104 +1293,104 @@ return lexeme.call(null,blancas.kern.core.none_of_STAR_.call(null,cs));
 ;
 var token = (cljs.core.truth_(new cljs.core.Keyword(null,"case-sensitive","case-sensitive",-1005239404).cljs$core$IFn$_invoke$arity$1(rec))?((function (trim,lexeme,sym,new_line,one_of,none_of){
 return (function() {
-var G__30595 = null;
-var G__30595__1 = (function (cs){
+var G__42274 = null;
+var G__42274__1 = (function (cs){
 return lexeme.call(null,blancas.kern.core.token_STAR_.call(null,cs));
 });
-var G__30595__2 = (function() { 
-var G__30596__delegate = function (cs,more){
+var G__42274__2 = (function() { 
+var G__42275__delegate = function (cs,more){
 return lexeme.call(null,cljs.core.apply.call(null,blancas.kern.core.token_STAR_,cs,more));
 };
-var G__30596 = function (cs,var_args){
+var G__42275 = function (cs,var_args){
 var more = null;
 if (arguments.length > 1) {
-var G__30597__i = 0, G__30597__a = new Array(arguments.length -  1);
-while (G__30597__i < G__30597__a.length) {G__30597__a[G__30597__i] = arguments[G__30597__i + 1]; ++G__30597__i;}
-  more = new cljs.core.IndexedSeq(G__30597__a,0,null);
+var G__42276__i = 0, G__42276__a = new Array(arguments.length -  1);
+while (G__42276__i < G__42276__a.length) {G__42276__a[G__42276__i] = arguments[G__42276__i + 1]; ++G__42276__i;}
+  more = new cljs.core.IndexedSeq(G__42276__a,0,null);
 } 
-return G__30596__delegate.call(this,cs,more);};
-G__30596.cljs$lang$maxFixedArity = 1;
-G__30596.cljs$lang$applyTo = (function (arglist__30598){
-var cs = cljs.core.first(arglist__30598);
-var more = cljs.core.rest(arglist__30598);
-return G__30596__delegate(cs,more);
+return G__42275__delegate.call(this,cs,more);};
+G__42275.cljs$lang$maxFixedArity = 1;
+G__42275.cljs$lang$applyTo = (function (arglist__42277){
+var cs = cljs.core.first(arglist__42277);
+var more = cljs.core.rest(arglist__42277);
+return G__42275__delegate(cs,more);
 });
-G__30596.cljs$core$IFn$_invoke$arity$variadic = G__30596__delegate;
-return G__30596;
+G__42275.cljs$core$IFn$_invoke$arity$variadic = G__42275__delegate;
+return G__42275;
 })()
 ;
-G__30595 = function(cs,var_args){
+G__42274 = function(cs,var_args){
 var more = var_args;
 switch(arguments.length){
 case 1:
-return G__30595__1.call(this,cs);
+return G__42274__1.call(this,cs);
 default:
-var G__30599 = null;
+var G__42278 = null;
 if (arguments.length > 1) {
-var G__30600__i = 0, G__30600__a = new Array(arguments.length -  1);
-while (G__30600__i < G__30600__a.length) {G__30600__a[G__30600__i] = arguments[G__30600__i + 1]; ++G__30600__i;}
-G__30599 = new cljs.core.IndexedSeq(G__30600__a,0,null);
+var G__42279__i = 0, G__42279__a = new Array(arguments.length -  1);
+while (G__42279__i < G__42279__a.length) {G__42279__a[G__42279__i] = arguments[G__42279__i + 1]; ++G__42279__i;}
+G__42278 = new cljs.core.IndexedSeq(G__42279__a,0,null);
 }
-return G__30595__2.cljs$core$IFn$_invoke$arity$variadic(cs, G__30599);
+return G__42274__2.cljs$core$IFn$_invoke$arity$variadic(cs, G__42278);
 }
 throw(new Error('Invalid arity: ' + (arguments.length - 1)));
 };
-G__30595.cljs$lang$maxFixedArity = 1;
-G__30595.cljs$lang$applyTo = G__30595__2.cljs$lang$applyTo;
-G__30595.cljs$core$IFn$_invoke$arity$1 = G__30595__1;
-G__30595.cljs$core$IFn$_invoke$arity$variadic = G__30595__2.cljs$core$IFn$_invoke$arity$variadic;
-return G__30595;
+G__42274.cljs$lang$maxFixedArity = 1;
+G__42274.cljs$lang$applyTo = G__42274__2.cljs$lang$applyTo;
+G__42274.cljs$core$IFn$_invoke$arity$1 = G__42274__1;
+G__42274.cljs$core$IFn$_invoke$arity$variadic = G__42274__2.cljs$core$IFn$_invoke$arity$variadic;
+return G__42274;
 })()
 ;})(trim,lexeme,sym,new_line,one_of,none_of))
 :((function (trim,lexeme,sym,new_line,one_of,none_of){
 return (function() {
-var G__30601 = null;
-var G__30601__1 = (function (cs){
+var G__42280 = null;
+var G__42280__1 = (function (cs){
 return lexeme.call(null,blancas.kern.core.token_.call(null,cs));
 });
-var G__30601__2 = (function() { 
-var G__30602__delegate = function (cs,more){
+var G__42280__2 = (function() { 
+var G__42281__delegate = function (cs,more){
 return lexeme.call(null,cljs.core.apply.call(null,blancas.kern.core.token_,cs,more));
 };
-var G__30602 = function (cs,var_args){
+var G__42281 = function (cs,var_args){
 var more = null;
 if (arguments.length > 1) {
-var G__30603__i = 0, G__30603__a = new Array(arguments.length -  1);
-while (G__30603__i < G__30603__a.length) {G__30603__a[G__30603__i] = arguments[G__30603__i + 1]; ++G__30603__i;}
-  more = new cljs.core.IndexedSeq(G__30603__a,0,null);
+var G__42282__i = 0, G__42282__a = new Array(arguments.length -  1);
+while (G__42282__i < G__42282__a.length) {G__42282__a[G__42282__i] = arguments[G__42282__i + 1]; ++G__42282__i;}
+  more = new cljs.core.IndexedSeq(G__42282__a,0,null);
 } 
-return G__30602__delegate.call(this,cs,more);};
-G__30602.cljs$lang$maxFixedArity = 1;
-G__30602.cljs$lang$applyTo = (function (arglist__30604){
-var cs = cljs.core.first(arglist__30604);
-var more = cljs.core.rest(arglist__30604);
-return G__30602__delegate(cs,more);
+return G__42281__delegate.call(this,cs,more);};
+G__42281.cljs$lang$maxFixedArity = 1;
+G__42281.cljs$lang$applyTo = (function (arglist__42283){
+var cs = cljs.core.first(arglist__42283);
+var more = cljs.core.rest(arglist__42283);
+return G__42281__delegate(cs,more);
 });
-G__30602.cljs$core$IFn$_invoke$arity$variadic = G__30602__delegate;
-return G__30602;
+G__42281.cljs$core$IFn$_invoke$arity$variadic = G__42281__delegate;
+return G__42281;
 })()
 ;
-G__30601 = function(cs,var_args){
+G__42280 = function(cs,var_args){
 var more = var_args;
 switch(arguments.length){
 case 1:
-return G__30601__1.call(this,cs);
+return G__42280__1.call(this,cs);
 default:
-var G__30605 = null;
+var G__42284 = null;
 if (arguments.length > 1) {
-var G__30606__i = 0, G__30606__a = new Array(arguments.length -  1);
-while (G__30606__i < G__30606__a.length) {G__30606__a[G__30606__i] = arguments[G__30606__i + 1]; ++G__30606__i;}
-G__30605 = new cljs.core.IndexedSeq(G__30606__a,0,null);
+var G__42285__i = 0, G__42285__a = new Array(arguments.length -  1);
+while (G__42285__i < G__42285__a.length) {G__42285__a[G__42285__i] = arguments[G__42285__i + 1]; ++G__42285__i;}
+G__42284 = new cljs.core.IndexedSeq(G__42285__a,0,null);
 }
-return G__30601__2.cljs$core$IFn$_invoke$arity$variadic(cs, G__30605);
+return G__42280__2.cljs$core$IFn$_invoke$arity$variadic(cs, G__42284);
 }
 throw(new Error('Invalid arity: ' + (arguments.length - 1)));
 };
-G__30601.cljs$lang$maxFixedArity = 1;
-G__30601.cljs$lang$applyTo = G__30601__2.cljs$lang$applyTo;
-G__30601.cljs$core$IFn$_invoke$arity$1 = G__30601__1;
-G__30601.cljs$core$IFn$_invoke$arity$variadic = G__30601__2.cljs$core$IFn$_invoke$arity$variadic;
-return G__30601;
+G__42280.cljs$lang$maxFixedArity = 1;
+G__42280.cljs$lang$applyTo = G__42280__2.cljs$lang$applyTo;
+G__42280.cljs$core$IFn$_invoke$arity$1 = G__42280__1;
+G__42280.cljs$core$IFn$_invoke$arity$variadic = G__42280__2.cljs$core$IFn$_invoke$arity$variadic;
+return G__42280;
 })()
 ;})(trim,lexeme,sym,new_line,one_of,none_of))
 );
@@ -1398,105 +1398,105 @@ var word = (function (){var il = new cljs.core.Keyword(null,"identifier-letter",
 if(cljs.core.truth_(new cljs.core.Keyword(null,"case-sensitive","case-sensitive",-1005239404).cljs$core$IFn$_invoke$arity$1(rec))){
 return ((function (il,trim,lexeme,sym,new_line,one_of,none_of,token){
 return (function() {
-var G__30607 = null;
-var G__30607__1 = (function (cs){
+var G__42286 = null;
+var G__42286__1 = (function (cs){
 return lexeme.call(null,blancas.kern.core.word_STAR_.call(null,il,cs));
 });
-var G__30607__2 = (function() { 
-var G__30608__delegate = function (cs,more){
+var G__42286__2 = (function() { 
+var G__42287__delegate = function (cs,more){
 return lexeme.call(null,cljs.core.apply.call(null,blancas.kern.core.word_STAR_,il,cs,more));
 };
-var G__30608 = function (cs,var_args){
+var G__42287 = function (cs,var_args){
 var more = null;
 if (arguments.length > 1) {
-var G__30609__i = 0, G__30609__a = new Array(arguments.length -  1);
-while (G__30609__i < G__30609__a.length) {G__30609__a[G__30609__i] = arguments[G__30609__i + 1]; ++G__30609__i;}
-  more = new cljs.core.IndexedSeq(G__30609__a,0,null);
+var G__42288__i = 0, G__42288__a = new Array(arguments.length -  1);
+while (G__42288__i < G__42288__a.length) {G__42288__a[G__42288__i] = arguments[G__42288__i + 1]; ++G__42288__i;}
+  more = new cljs.core.IndexedSeq(G__42288__a,0,null);
 } 
-return G__30608__delegate.call(this,cs,more);};
-G__30608.cljs$lang$maxFixedArity = 1;
-G__30608.cljs$lang$applyTo = (function (arglist__30610){
-var cs = cljs.core.first(arglist__30610);
-var more = cljs.core.rest(arglist__30610);
-return G__30608__delegate(cs,more);
+return G__42287__delegate.call(this,cs,more);};
+G__42287.cljs$lang$maxFixedArity = 1;
+G__42287.cljs$lang$applyTo = (function (arglist__42289){
+var cs = cljs.core.first(arglist__42289);
+var more = cljs.core.rest(arglist__42289);
+return G__42287__delegate(cs,more);
 });
-G__30608.cljs$core$IFn$_invoke$arity$variadic = G__30608__delegate;
-return G__30608;
+G__42287.cljs$core$IFn$_invoke$arity$variadic = G__42287__delegate;
+return G__42287;
 })()
 ;
-G__30607 = function(cs,var_args){
+G__42286 = function(cs,var_args){
 var more = var_args;
 switch(arguments.length){
 case 1:
-return G__30607__1.call(this,cs);
+return G__42286__1.call(this,cs);
 default:
-var G__30611 = null;
+var G__42290 = null;
 if (arguments.length > 1) {
-var G__30612__i = 0, G__30612__a = new Array(arguments.length -  1);
-while (G__30612__i < G__30612__a.length) {G__30612__a[G__30612__i] = arguments[G__30612__i + 1]; ++G__30612__i;}
-G__30611 = new cljs.core.IndexedSeq(G__30612__a,0,null);
+var G__42291__i = 0, G__42291__a = new Array(arguments.length -  1);
+while (G__42291__i < G__42291__a.length) {G__42291__a[G__42291__i] = arguments[G__42291__i + 1]; ++G__42291__i;}
+G__42290 = new cljs.core.IndexedSeq(G__42291__a,0,null);
 }
-return G__30607__2.cljs$core$IFn$_invoke$arity$variadic(cs, G__30611);
+return G__42286__2.cljs$core$IFn$_invoke$arity$variadic(cs, G__42290);
 }
 throw(new Error('Invalid arity: ' + (arguments.length - 1)));
 };
-G__30607.cljs$lang$maxFixedArity = 1;
-G__30607.cljs$lang$applyTo = G__30607__2.cljs$lang$applyTo;
-G__30607.cljs$core$IFn$_invoke$arity$1 = G__30607__1;
-G__30607.cljs$core$IFn$_invoke$arity$variadic = G__30607__2.cljs$core$IFn$_invoke$arity$variadic;
-return G__30607;
+G__42286.cljs$lang$maxFixedArity = 1;
+G__42286.cljs$lang$applyTo = G__42286__2.cljs$lang$applyTo;
+G__42286.cljs$core$IFn$_invoke$arity$1 = G__42286__1;
+G__42286.cljs$core$IFn$_invoke$arity$variadic = G__42286__2.cljs$core$IFn$_invoke$arity$variadic;
+return G__42286;
 })()
 ;})(il,trim,lexeme,sym,new_line,one_of,none_of,token))
 } else {
 return ((function (il,trim,lexeme,sym,new_line,one_of,none_of,token){
 return (function() {
-var G__30613 = null;
-var G__30613__1 = (function (cs){
+var G__42292 = null;
+var G__42292__1 = (function (cs){
 return lexeme.call(null,blancas.kern.core.word_.call(null,il,cs));
 });
-var G__30613__2 = (function() { 
-var G__30614__delegate = function (cs,more){
+var G__42292__2 = (function() { 
+var G__42293__delegate = function (cs,more){
 return lexeme.call(null,cljs.core.apply.call(null,blancas.kern.core.word_,il,cs,more));
 };
-var G__30614 = function (cs,var_args){
+var G__42293 = function (cs,var_args){
 var more = null;
 if (arguments.length > 1) {
-var G__30615__i = 0, G__30615__a = new Array(arguments.length -  1);
-while (G__30615__i < G__30615__a.length) {G__30615__a[G__30615__i] = arguments[G__30615__i + 1]; ++G__30615__i;}
-  more = new cljs.core.IndexedSeq(G__30615__a,0,null);
+var G__42294__i = 0, G__42294__a = new Array(arguments.length -  1);
+while (G__42294__i < G__42294__a.length) {G__42294__a[G__42294__i] = arguments[G__42294__i + 1]; ++G__42294__i;}
+  more = new cljs.core.IndexedSeq(G__42294__a,0,null);
 } 
-return G__30614__delegate.call(this,cs,more);};
-G__30614.cljs$lang$maxFixedArity = 1;
-G__30614.cljs$lang$applyTo = (function (arglist__30616){
-var cs = cljs.core.first(arglist__30616);
-var more = cljs.core.rest(arglist__30616);
-return G__30614__delegate(cs,more);
+return G__42293__delegate.call(this,cs,more);};
+G__42293.cljs$lang$maxFixedArity = 1;
+G__42293.cljs$lang$applyTo = (function (arglist__42295){
+var cs = cljs.core.first(arglist__42295);
+var more = cljs.core.rest(arglist__42295);
+return G__42293__delegate(cs,more);
 });
-G__30614.cljs$core$IFn$_invoke$arity$variadic = G__30614__delegate;
-return G__30614;
+G__42293.cljs$core$IFn$_invoke$arity$variadic = G__42293__delegate;
+return G__42293;
 })()
 ;
-G__30613 = function(cs,var_args){
+G__42292 = function(cs,var_args){
 var more = var_args;
 switch(arguments.length){
 case 1:
-return G__30613__1.call(this,cs);
+return G__42292__1.call(this,cs);
 default:
-var G__30617 = null;
+var G__42296 = null;
 if (arguments.length > 1) {
-var G__30618__i = 0, G__30618__a = new Array(arguments.length -  1);
-while (G__30618__i < G__30618__a.length) {G__30618__a[G__30618__i] = arguments[G__30618__i + 1]; ++G__30618__i;}
-G__30617 = new cljs.core.IndexedSeq(G__30618__a,0,null);
+var G__42297__i = 0, G__42297__a = new Array(arguments.length -  1);
+while (G__42297__i < G__42297__a.length) {G__42297__a[G__42297__i] = arguments[G__42297__i + 1]; ++G__42297__i;}
+G__42296 = new cljs.core.IndexedSeq(G__42297__a,0,null);
 }
-return G__30613__2.cljs$core$IFn$_invoke$arity$variadic(cs, G__30617);
+return G__42292__2.cljs$core$IFn$_invoke$arity$variadic(cs, G__42296);
 }
 throw(new Error('Invalid arity: ' + (arguments.length - 1)));
 };
-G__30613.cljs$lang$maxFixedArity = 1;
-G__30613.cljs$lang$applyTo = G__30613__2.cljs$lang$applyTo;
-G__30613.cljs$core$IFn$_invoke$arity$1 = G__30613__1;
-G__30613.cljs$core$IFn$_invoke$arity$variadic = G__30613__2.cljs$core$IFn$_invoke$arity$variadic;
-return G__30613;
+G__42292.cljs$lang$maxFixedArity = 1;
+G__42292.cljs$lang$applyTo = G__42292__2.cljs$lang$applyTo;
+G__42292.cljs$core$IFn$_invoke$arity$1 = G__42292__1;
+G__42292.cljs$core$IFn$_invoke$arity$variadic = G__42292__2.cljs$core$IFn$_invoke$arity$variadic;
+return G__42292;
 })()
 ;})(il,trim,lexeme,sym,new_line,one_of,none_of,token))
 }
@@ -1507,8 +1507,8 @@ var names = new cljs.core.Keyword(null,"reserved-names","reserved-names",-535805
 var elem_QMARK_ = ((function (start,other,names,trim,lexeme,sym,new_line,one_of,none_of,token,word){
 return (function (s,coll){
 return blancas.kern.core.member_QMARK_.call(null,clojure.string.lower_case.call(null,s),cljs.core.map.call(null,((function (start,other,names,trim,lexeme,sym,new_line,one_of,none_of,token,word){
-return (function (p1__30594_SHARP_){
-return clojure.string.lower_case.call(null,p1__30594_SHARP_);
+return (function (p1__42273_SHARP_){
+return clojure.string.lower_case.call(null,p1__42273_SHARP_);
 });})(start,other,names,trim,lexeme,sym,new_line,one_of,none_of,token,word))
 ,coll));
 });})(start,other,names,trim,lexeme,sym,new_line,one_of,none_of,token,word))
